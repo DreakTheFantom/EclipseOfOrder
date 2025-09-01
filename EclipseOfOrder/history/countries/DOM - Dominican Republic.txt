@@ -1,0 +1,22 @@
+﻿capital = 319
+
+#oob = "DOM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	tech_trucks = 1
+}
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "2016.5.16"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservative = 100
+}

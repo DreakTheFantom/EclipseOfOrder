@@ -1,0 +1,26 @@
+
+state={
+	id=1017
+	name="STATE_1017"
+	manpower = 541038
+	
+	state_category = city
+
+	history={
+		owner = RSD
+		buildings = {
+			infrastructure = 2 #was: 5
+		}
+		victory_points = {
+			6474 10
+		}
+		add_core_of = RSD
+		add_claim_by = UKR
+	}
+
+	provinces={
+		6505 9461 9446
+	}
+
+	local_supplies=10.0 
+}

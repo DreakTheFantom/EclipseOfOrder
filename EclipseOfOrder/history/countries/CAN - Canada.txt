@@ -1,0 +1,27 @@
+﻿capital = 276
+
+
+
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.1
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2016.10.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 98
+	fascism = 1
+	communism = 1
+}
+
+set_convoys = 100

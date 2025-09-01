@@ -1,0 +1,30 @@
+﻿capital = 278
+
+#oob = "ARG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+}
+
+set_convoys = 120
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "2016.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservative = 65
+	fascism = 20
+	communism = 5
+	neutrality = 10
+}
+

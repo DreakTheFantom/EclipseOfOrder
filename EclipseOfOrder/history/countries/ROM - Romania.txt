@@ -1,0 +1,32 @@
+﻿capital = 46
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.6
+
+# Starting tech
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2016.12.20"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 60
+	fascism = 18
+	communism = 2
+	conservative = 20
+}

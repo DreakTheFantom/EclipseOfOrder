@@ -1,0 +1,26 @@
+﻿capital = 812
+
+#oob = "EST_1936"
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_support = 1
+	basic_train = 1
+}
+
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2016.5.21"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 80
+	fascism = 15
+	neutrality = 5
+}

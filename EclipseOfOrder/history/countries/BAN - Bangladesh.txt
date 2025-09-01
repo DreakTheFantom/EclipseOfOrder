@@ -1,0 +1,24 @@
+﻿capital = 430
+
+##oob = ""
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 5
+
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "2016.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservative = 75
+	fascism = 1
+	communism = 1
+	neutrality = 23
+}

@@ -1,0 +1,21 @@
+﻿capital = 315
+
+#oob = "CUB_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks = 1
+}
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "2016.1.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	socialism = 65
+	communism = 2
+	democratic = 33
+}

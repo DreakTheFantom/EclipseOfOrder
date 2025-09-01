@@ -1,0 +1,21 @@
+﻿capital = 282 # Tokyo/Kanto
+
+# Starting Stats
+set_stability = 0.8
+set_war_support = 0.2
+
+set_research_slots = 4
+set_fuel_ratio = 1.0
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2016.5.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 75
+	fascism = 4
+	communism = 1
+	conservative = 20
+}

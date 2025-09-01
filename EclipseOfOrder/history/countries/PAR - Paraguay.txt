@@ -1,0 +1,24 @@
+﻿capital = 301
+
+#oob = "PAR_1936"
+
+set_research_slots = 2
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_trucks = 1
+	gw_artillery = 1
+}
+
+set_stability = 0.26
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "2016.6.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservative = 100
+}

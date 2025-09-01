@@ -1,0 +1,33 @@
+﻿capital = 293
+
+#oob = "YEM_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+
+set_war_support = 0.1
+set_stability = 0.8
+set_convoys = 5
+
+set_politics = {
+	ruling_party = conservative
+	last_election = "2016.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservative = 55
+	fascism = 1
+	democratic = 40
+	neutrality = 4
+}
+

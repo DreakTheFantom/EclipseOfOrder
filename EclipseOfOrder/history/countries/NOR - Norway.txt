@@ -1,0 +1,16 @@
+﻿capital = 110 # Oslo
+
+#oob = "NOR_1936"
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2016.10.16"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 96
+	fascism = 2
+	communism = 2
+}
+

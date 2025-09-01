@@ -1,0 +1,17 @@
+﻿capital = 202 #Kiev
+
+#oob = "UKR_1936"
+
+set_research_slots = 3
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2018.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	conservative = 15
+	fascism = 10
+	democratic = 75
+}
