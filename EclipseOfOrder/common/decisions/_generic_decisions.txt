@@ -13,13 +13,11 @@ political_actions = {
 			#Target is FROM
 			has_tech = atomic_research
 			NOT = { has_global_flag = first_nuke_dropped }
-			NOT = { has_idea = race_for_the_bomb }
 		}
 
 		target_root_trigger = {
             has_tech = atomic_research
             NOT = { has_global_flag = first_nuke_dropped }
-            NOT = { has_idea = race_for_the_bomb }
 		}
 
 		#If this trigger matches a country.
@@ -38,7 +36,6 @@ political_actions = {
             #Target is FROM
             has_tech = atomic_research
             NOT = { has_global_flag = first_nuke_dropped }
-            NOT = { has_idea = race_for_the_bomb }
             FROM = {
         		NOT = { is_in_faction_with = ROOT }
 				is_special_project_completed = sp:sp_nuclear_reactor
@@ -71,9 +68,6 @@ political_actions = {
 			if = {
 				limit = {
 					tag = SPR
-				}
-				NOT = {
-					has_idea = SPR_political_violence
 				}
 			}
 		}
@@ -113,27 +107,9 @@ political_actions = {
 				NOT = { has_global_flag = spanish_civil_war }
 			}
 			modifier = {
-				factor = 0 
-				tag = ICE
-				has_completed_focus = ICE_not_our_king
-				NOT = { has_completed_focus = ICE_break_with_the_crown }
-			}
-			modifier = {
-				factor = 0 
-				tag = GER
-				has_completed_focus = GER_oppose_hitler_ww
-				NOT = { 
-					OR = {
-						has_completed_focus = GER_the_peoples_victory 
-						has_completed_focus = GER_monarchist_sentiment 
-					}
-				}
-			}
-			modifier = {
 				add = 1000
 				has_stability < 0.76
 				original_tag = SWE
-				has_idea = SWE_hungershield
 			}
 		}
 	}
@@ -156,13 +132,6 @@ economy_decisions = {
 
 		available = {
 			controls_state = 28
-			if = {
-				limit = {
-					FRA = { has_completed_focus = FRA_extend_the_maginot_line }
-				}
-				controls_state = 18
-				controls_state = 29
-			}
 		}
 
 		visible = {
@@ -188,37 +157,6 @@ economy_decisions = {
 						level > 2
 					}
 				}
-			}
-			if = {
-				limit = {
-					FRA = { has_completed_focus = FRA_extend_the_maginot_line }
-				}
-				18 = {
-					set_building_level = {
-						type = bunker
-						level = 2
-						province = {
-							all_provinces = yes
-							level > 2
-						}
-					}
-				}
-				29 = {
-					set_building_level = {
-						type = bunker
-						level = 2
-						province = {
-							all_provinces = yes
-							level > 2
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_idea = FRA_protected_by_the_maginot_line
-				}
-				remove_ideas = FRA_protected_by_the_maginot_line
 			}
 		}
 	}
@@ -284,7 +222,6 @@ economy_decisions = {
 				has_stability > 0.74
 				NOT = {
 					original_tag = SWE
-					has_idea = SWE_hungershield
 				}
 			}
 		}
@@ -314,7 +251,6 @@ propaganda_efforts = {
 					has_dlc = "La Resistance"
 				}
 				NOT = {
-					has_idea = SPR_political_violence
 				}
 			}
 			if = {
@@ -573,7 +509,6 @@ propaganda_efforts = {
 				}
 				threat > 0.25
 				#has_tech = radio
-				has_completed_focus = BRA_radio_nacional
 			}
 			ELSE = {
 				threat > 0.25
@@ -587,7 +522,6 @@ propaganda_efforts = {
 				}
 				threat > 0.25
 				#has_tech = radio
-				has_completed_focus = AFG_establish_radio_networks
 			}
 			ELSE = {
 				threat > 0.25
@@ -600,9 +534,6 @@ propaganda_efforts = {
 				limit = {
 					tag = SPR
 					has_dlc = "La Resistance"
-				}
-				NOT = {
-					has_idea = SPR_political_violence
 				}
 			}
 			if = {
@@ -659,9 +590,6 @@ propaganda_efforts = {
 				limit = {
 					tag = SPR
 					has_dlc = "La Resistance"
-				}
-				NOT = {
-					has_idea = SPR_political_violence
 				}
 			}
 			if = {
@@ -1701,7 +1629,6 @@ war_measures = {
 				limit = {
 					NOT = { original_tag = GER }
 				}
-        		has_idea = tot_economic_mobilisation
 			}
 			else_if = {
 				limit = {
@@ -1711,7 +1638,6 @@ war_measures = {
         			has_idea = tot_economic_mobilisation
 					has_idea = totaler_krieg_economy
 				}
-				NOT = { has_completed_focus = GER_womens_rights_and_equality }
 			}
             OR = {
                 AND = {
@@ -1742,7 +1668,6 @@ war_measures = {
             	limit = {
             		original_tag = GER
             	}
-            	NOT = { has_completed_focus = GER_womens_rights_and_equality }
             }
         }
         cost = 100
@@ -1752,14 +1677,6 @@ war_measures = {
             	limit = {
             		original_tag = GER
             	}
-        		OR = {
-        			has_war = no
-        			AND = {
-        				NOT = { has_idea = tot_economic_mobilisation }
-        				NOT = { has_idea = totaler_krieg_economy }
-        			}
-        			has_completed_focus = GER_womens_rights_and_equality
-        		}
             }
         	else = {
 	        	OR = {
@@ -2005,12 +1922,6 @@ foreign_politics = {
         	NOT = { has_war_with = FROM }
         	any_enemy_country = {
 				has_attache_from = FROM
-			}
-			NOT = {
-				AND = {
-					original_tag = SPR
-					has_completed_focus = SPR_regional_defense_council_of_aragon
-				}
 			}
 		}
 

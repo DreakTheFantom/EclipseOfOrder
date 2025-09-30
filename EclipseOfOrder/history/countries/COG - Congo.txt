@@ -1,6 +1,6 @@
 ﻿capital = 295 # Leopoldville/Kinshaasa
 
-set_#oob = "COG_1936"
+# = "COG_1936"
 
 # Starting tech
 set_technology = {

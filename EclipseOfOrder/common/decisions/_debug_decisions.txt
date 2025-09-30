@@ -321,19 +321,7 @@ debug_decisions = {
 		fire_only_once = no
 		cost = 0
 
-		complete_effect = {
-			if = {
-				limit = {
-					has_idea = add_production_efficiency
-				}
-				remove_ideas = add_production_efficiency
-			}
-			if = {
-				limit = {
-					has_idea = decrease_production_efficiency
-				}
-				remove_ideas = decrease_production_efficiency
-			}	
+		complete_effect = {	
 		}
 	}
 		
@@ -566,7 +554,6 @@ debug_decisions = {
 		cost = 0
 
 		complete_effect = {
-			controlled_civilian_factories_excluding_trade = yes
 		}
 
 		ai_will_do = {

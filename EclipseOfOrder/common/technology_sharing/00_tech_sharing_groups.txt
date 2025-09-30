@@ -86,11 +86,6 @@ technology_sharing_group = {
 
 	research_sharing_per_country_bonus = 0.05
 
-    available = {
-        NORDIC_basic_joint_trigger = yes 
-        #has_completed_focus = NORDIC_nordic_research
-    }
-
 }
 
 technology_sharing_group = {
@@ -671,20 +666,6 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.2
 
 	available = {
-		OR = {
-			AND = {
-				original_tag = FIN
-				OR = {
-					has_idea = FIN_the_lone_wolf
-					is_in_faction = yes
-				}
-			}
-			is_in_faction_with = FIN
-			overlord = {
-				original_tag = FIN
-				has_idea = FIN_the_lone_wolf
-			}
-		}
 	}
 }
 

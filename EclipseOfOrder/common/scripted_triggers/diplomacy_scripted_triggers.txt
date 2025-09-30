@@ -1388,7 +1388,6 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 			limit = {
 				original_tag = SOV
 				has_government = communism
-				FROM = { is_literally_china = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_SUPPORT_CHOSEN_ONE_TT
@@ -1398,13 +1397,11 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 			limit = {
 				original_tag = SOV
 				NOT = { has_government = communism }
-				FROM = { is_literally_china = yes }
 			}
 			custom_trigger_tooltip = {
 				tooltip = RULE_VOLUNTEERS_SOVIET_CHINA_ONLY_ONE_TT
 				NOT = {
 					any_other_country = {
-						is_literally_china = yes
 						NOT = { tag = FROM }
 						has_country_flag = SOV_russian_volunteers_in_china_flag
 					}
@@ -1536,7 +1533,7 @@ DIPLOMACY_SEND_VOLUNTEERS_ENABLE_TRIGGER = {
 		#else_if = { #Can only send Volunteers to Ethiopia while having the National Spirit to do so)
 		#	limit = {
 		#		has_dlc = "By Blood Alone"
-		#		has_idea = ETH_support_for_ethiopia_idea
+		#		 = ETH_support_for_ethiopia_idea
 		#	}
 		#	custom_trigger_tooltip = {
 		#		tooltip = RULE_VOLUNTEERS_ETHIOPIA_ONLY_ONE_TT
@@ -1710,7 +1707,6 @@ DIPLOMACY_JOIN_ALLY_ENABLE_TRIGGER = {
 			has_dlc = "Arms Against Tyranny"
 			ROOT = {
 				original_tag = ICE
-				has_idea = neutrality_idea
 				is_subject = yes 
 			}
 		}
@@ -1767,7 +1763,6 @@ DIPLOMACY_CALL_ALLY_ENABLE_TRIGGER = {
 			has_dlc = "Arms Against Tyranny"
 			FROM = {
 				original_tag = ICE
-				has_idea = neutrality_idea
 				is_subject = yes 
 			}
 		}

@@ -155,7 +155,7 @@ set_popularities = {
 	neutrality = 40
 }
 
-add_ideas = {
+# = {
 }
 
 #oob = WUR_philipp_albrecht 

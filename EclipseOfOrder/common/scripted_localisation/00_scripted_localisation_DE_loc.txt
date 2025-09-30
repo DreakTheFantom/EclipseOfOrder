@@ -250,7 +250,6 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			FRA = {
 				exists = yes
-				SWI_is_country_to_balance = yes 
 				has_government = fascism 
 			}
 		}
@@ -260,7 +259,6 @@ defined_text = { #Text to get fascis-est neighbor
 		trigger = {
 			ENG = {
 				exists = yes
-				SWI_is_country_to_balance = yes 
 				has_government = fascism 
 			}
 		}
@@ -286,21 +284,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_alliance_name_DE_Nom
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Nom_NORDIC_alliance_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_alliance_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_alliance_monarchist
 	}	
 }
@@ -308,21 +297,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_alliance_name_DE_NomCap
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_NomCap_NORDIC_alliance_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_alliance_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_alliance_monarchist
 	}	
 }
@@ -330,21 +310,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_alliance_name_DE_Gen
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Gen_NORDIC_alliance_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_alliance_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_alliance_monarchist
 	}	
 }
@@ -352,21 +323,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_alliance_name_DE_Dat
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Dat_NORDIC_alliance_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Dat_NORDIC_alliance_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Dat_NORDIC_alliance_monarchist
 	}	
 }
@@ -374,21 +336,14 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_army_name_DE_Nom
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Nom_NORDIC_nordic_army_democratic
 	}
 	text = {
 		trigger = {
-			NORDIC_communist_alliance_viable = yes 
 		}
 		localization_key = DE_Nom_NORDIC_nordic_army_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_nordic_army_monarchist
 	}	
 }
@@ -396,21 +351,14 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_army_name_DE_NomCap
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_army_democratic
 	}
 	text = {
 		trigger = {
-			NORDIC_communist_alliance_viable = yes 
 		}
 		localization_key = DE_NomCap_NORDIC_nordic_army_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_army_monarchist
 	}	
 }
@@ -418,21 +366,14 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_army_name_DE_Gen
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Gen_NORDIC_nordic_army_democratic
 	}
 	text = {
 		trigger = {
-			NORDIC_communist_alliance_viable = yes 
 		}
 		localization_key = DE_Gen_NORDIC_nordic_army_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_nordic_army_monarchist
 	}	
 }
@@ -440,21 +381,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_navy_name_DE_Nom
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Nom_NORDIC_nordic_navy_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_nordic_navy_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_nordic_navy_monarchist
 	}	
 }
@@ -462,21 +394,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_navy_name_DE_NomCap
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_navy_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_navy_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_navy_monarchist
 	}	
 }
@@ -484,21 +407,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_navy_name_DE_Gen
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Gen_NORDIC_nordic_navy_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_nordic_navy_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_nordic_navy_monarchist
 	}	
 }
@@ -506,21 +420,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_airforce_name_DE_Nom
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Nom_NORDIC_nordic_airforce_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_nordic_airforce_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_nordic_airforce_monarchist
 	}	
 }
@@ -528,21 +433,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_airforce_name_DE_NomCap
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_airforce_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_airforce_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_airforce_monarchist
 	}	
 }
@@ -550,21 +446,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_airforce_name_DE_Gen
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Gen_NORDIC_nordic_airforce_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_nordic_airforce_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_nordic_airforce_monarchist
 	}	
 }
@@ -572,21 +459,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_industry_name_DE_Nom
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Nom_NORDIC_nordic_industry_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_nordic_industry_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Nom_NORDIC_nordic_industry_monarchist
 	}	
 }
@@ -594,21 +472,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_industry_name_DE_NomCap
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_industry_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_industry_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_NomCap_NORDIC_nordic_industry_monarchist
 	}	
 }
@@ -616,21 +485,12 @@ defined_text = {
 defined_text = {
 	name = NORDIC_get_nordic_industry_name_DE_Gen
 	text = {
-		trigger = {
-			NORDIC_democratic_alliance_viable = yes
-		}
 		localization_key = DE_Gen_NORDIC_nordic_industry_democratic
 	}
 	text = {
-		trigger = {
-			NORDIC_communist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_nordic_industry_communist
 	}
 	text = {
-		trigger = {
-			NORDIC_monarchist_alliance_viable = yes 
-		}
 		localization_key = DE_Gen_NORDIC_nordic_industry_monarchist
 	}	
 }

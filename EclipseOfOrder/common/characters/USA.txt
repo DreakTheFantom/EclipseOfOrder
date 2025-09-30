@@ -1,0 +1,17 @@
+characters = {
+
+	USA_donald_trump = {
+		name = USA_donald_trump
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_donald_trump
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			# traits = { } # ADD WHEN DONE
+			expire = "9999.9.9.9"
+			id = -1
+		}
+	}
+}

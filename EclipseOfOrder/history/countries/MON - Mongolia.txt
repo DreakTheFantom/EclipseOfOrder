@@ -7,10 +7,6 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-add_ideas = {
-	limited_conscription
-}
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "2016.1.1"
@@ -19,10 +15,4 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 100
-}
-
-1939.1.1 = {
-	add_ideas = {
-		limited_conscription
-	}
 }

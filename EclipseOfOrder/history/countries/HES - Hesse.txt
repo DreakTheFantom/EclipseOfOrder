@@ -156,7 +156,7 @@ set_popularities = {
 	neutrality = 50
 }
 
-add_ideas = {
+# = {
 }
 
 #oob = HES_philipp_of_hesse 

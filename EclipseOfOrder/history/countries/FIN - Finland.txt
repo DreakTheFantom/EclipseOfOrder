@@ -1,13 +1,9 @@
 ﻿capital = 111
 
-set_#oob = "FIN_1936"
+# = "FIN_1936"
 
 
 set_research_slots = 3
-
-add_ideas = {
-	limited_conscription
-}
 
 set_technology = {
 	infantry_weapons = 1
@@ -19,6 +15,7 @@ set_technology = {
 	tech_recon = 1
 	tech_engineers = 1
 	basic_train = 1
+}
 
 set_politics = {
 	ruling_party = democratic

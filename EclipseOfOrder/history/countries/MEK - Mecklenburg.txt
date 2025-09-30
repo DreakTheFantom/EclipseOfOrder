@@ -167,7 +167,7 @@ set_popularities = {
 	neutrality = 50
 }
 
-add_ideas = {
+# = {
 }
 
 #oob = MEK_christian_louis

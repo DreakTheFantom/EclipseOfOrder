@@ -159,7 +159,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.3
-					congress_high_support_trigger = yes
 				}
 				if = {
 					limit = {
@@ -238,7 +237,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.5
-					congress_high_support_trigger = yes
 				}
 				if = {
 					limit = {
@@ -266,7 +264,6 @@ ideas = {
 						tag = USA
 						has_defensive_war = no
 					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			ai_will_do = {
@@ -373,7 +370,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.75
-					congress_high_support_trigger = yes
 				}
 				if = {
 					limit = {
@@ -400,7 +396,6 @@ ideas = {
 						tag = USA
 						has_defensive_war = no
 					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			ai_will_do = {
@@ -504,7 +499,6 @@ ideas = {
 						has_defensive_war = no
 					}
 					has_war_support > 0.9
-					congress_high_support_trigger = yes
 				}
 				if = {
 					limit = {
@@ -519,7 +513,6 @@ ideas = {
 						tag = USA
 						has_defensive_war = no
 					}
-					USA_congress_large_opposition = yes
 				}
 			}
 			ai_will_do = {
@@ -754,9 +747,6 @@ ideas = {
 			}
 
 			on_remove = {
-				effect_tooltip =  {
-					remove_dynamic_modifier = { modifier = international_city }
-				}
 				hidden_effect = {
 					if = {
 						limit = {
@@ -1128,7 +1118,6 @@ ideas = {
 						original_tag = CHI
 						has_dlc = "Waking the Tiger"
 					}
-					NOT = { has_idea = CHI_nine_power_treaty }
 				}
 			}
 

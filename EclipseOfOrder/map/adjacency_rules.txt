@@ -175,12 +175,6 @@ adjacency_rule = {
 		OR = {
 			has_global_flag = PANAMA_CANAL_BLOCKED
 			has_country_flag = PANAMA_CANAL_BLOCKED_FOR_COUNTRY
-			685 = {
-				has_dynamic_modifier = {
-					modifier = panama_canal_damaged_modifier
-					scope = THIS
-				}
-			}
 		}
 		#tooltip = disable_canal_tt
 		tooltip = kiel_canal_damaged_tt
@@ -195,9 +189,6 @@ adjacency_rule =
 {
 	name = "bosphorus_strait"
 
-	is_friend = {
-		TUR_is_friend_for_bosphorus = yes
-	}
 	contested =
 	{
 		army = no
@@ -242,10 +233,6 @@ adjacency_rule =
 adjacency_rule =
 {
 	name = "DARDANELLES_STRAIT"
-
-	is_friend = {
-		TUR_is_friend_for_dardanelles = yes
-	}
 
 	contested =
 	{
@@ -323,12 +310,6 @@ adjacency_rule = {
 	required_provinces = { 317 3231 3368 6257 6389 }
 
 	is_disabled = {
-		58 = {
-			has_dynamic_modifier = {
-				modifier = kiel_canal_damaged_modifier
-				scope = THIS
-			}
-		}
 		tooltip = kiel_canal_damaged_tt
 	}	
 		

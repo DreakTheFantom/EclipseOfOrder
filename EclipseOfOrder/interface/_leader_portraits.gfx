@@ -8833,4 +8833,8 @@ spriteTypes = {
 		name = GFX_portrait_SOV_vladimir_putin
 		texturefile = "gfx/leaders/SOV/SOV_vladimir_putin.dds"
 	}
+	spriteType = {
+		name = GFX_portrait_USA_donald_trump
+		texturefile = "gfx/leaders/USA/USA_donald_trump.dds"
+	}
 }

@@ -82,15 +82,15 @@ set_convoys = 10
 	add_command_power = 100
 	
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+	# = army_effort
+	# = equipment_effort
+	# = motorization_effort
+	# = aviation_effort
+	# = naval_effort
+	# = large_navy
+	# = industrial_effort
+	# = construction_effort
+	# = production_effort
 	
 	#oob = "COL_1939"
 	if = {
@@ -171,33 +171,6 @@ set_popularities = {
 	}
 
 	#oob = COL_eduardo_santos
-	promote_character = COL_eduardo_santos
-	retire_character = COL_alfonso_lópez_pumarejo
-}
-
-
-### VARIANTS ###
-# 1936 Start #
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	create_equipment_variant = {
-		name = "Antioquia Class"				
-		type = ship_hull_light_1
-		name_group = COL_DD_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_2
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_2
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_mine_layer_1
-			rear_1_custom_slot = ship_depth_charge_1
-		}
-	}
+	# = COL_eduardo_santos
+	# = COL_alfonso_lópez_pumarejo
 }

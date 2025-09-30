@@ -159,7 +159,7 @@ set_popularities = {
 	neutrality = 75
 }
 
-add_ideas = {
+# = {
 }
 
 #oob = PRE_eitel_friedrich

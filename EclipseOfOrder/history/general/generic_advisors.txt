@@ -47,7 +47,6 @@ every_possible_country = {
 						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_the_lee_affair
 				}
 				IF = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -109,10 +108,6 @@ every_possible_country = {
 						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					OR = {
-						has_completed_focus = NZL_strengthen_the_commonwealth
-						has_completed_focus = NZL_constitution_amendment_act
-					}
 				}
 				IF = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -173,7 +168,6 @@ every_possible_country = {
 						original_tag = NZL
 						has_dlc = "Together for Victory"
 					}
-					has_completed_focus = NZL_in_the_darkness
 				}
 				IF = {
 					limit = { has_dlc = "Man the Guns" }	
@@ -197,7 +191,6 @@ every_possible_country = {
 		NOT = { original_tag = CHI }
 		# Germany as Wilhelm Canaris
 		NOT = { original_tag = GER }
-		NOT = { is_chinese_warlord = yes }
 		IF = {
 			limit = {
 				has_dlc = "Battle for the Bosporus"
@@ -660,7 +653,6 @@ every_possible_country = { #AFG has no chief of navy, nor any naval theorists
 			ledger = navy
 			cost = 50
 			available = {
-				has_completed_focus = AFG_naval_academy
 			}
 		}
 		portraits = { 
@@ -674,7 +666,6 @@ every_possible_country = { #AFG has no chief of navy, nor any naval theorists
 			traits = { navy_chief_reform_1 }
 			cost = 50
 			available = {
-				has_completed_focus = AFG_naval_academy
 			}
 		}
 		portraits = { 

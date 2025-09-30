@@ -161,7 +161,7 @@ set_popularities = {
 	neutrality = 50
 }
 
-add_ideas = {
+# = {
 }
 
 #oob = SAX_george_of_saxony

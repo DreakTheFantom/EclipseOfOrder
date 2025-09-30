@@ -23,12 +23,6 @@ continuous_focus_palette = {
 			}
 		}
 
-		enable = {
-			has_power_balance = {
-				id = DEN_occupation_balance
-			}
-		}
-
 		modifier = {
 			power_balance_weekly = 0.01
 		}
@@ -40,10 +34,6 @@ continuous_focus_palette = {
 			}
 			modifier = {
 				factor = 10
-				power_balance_value = {
-					id = DEN_occupation_balance
-					value < 0.9
-				}
 			}
 			modifier = {
 				factor = 0	
@@ -178,13 +168,10 @@ continuous_focus_palette = {
 		available_if_capitulated = yes
 
 		select_effect = {
-			activate_mission = SWI_building_up_military_readiness_mission
-			set_country_flag = SWI_building_up_mr_cont_focus_active
 		}
 		
 
 		cancel_effect = {
-			clr_country_flag = SWI_building_up_mr_cont_focus_active
 		}
 	}
 	
@@ -198,10 +185,6 @@ continuous_focus_palette = {
 				has_dlc = "By Blood Alone" 
 				original_tag = SWI
 			}
-		}
-
-		enable = {
-			has_dynamic_modifier = { modifier = SWI_active_citizen_militia }
 		}
 
 		modifier = {

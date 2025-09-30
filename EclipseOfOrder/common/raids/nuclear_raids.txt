@@ -165,10 +165,6 @@ types = {
 				}
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
-						custom_effect_tooltip = raid_nuclear_strike_tt
-					}
 					var:actor_country = {
 						custom_effect_tooltip = raid_nuclear_secondary_target_tt
 						launch_nuke = {
@@ -189,10 +185,6 @@ types = {
 				}
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
-						custom_effect_tooltip = raid_nuclear_strike_tt
-					}
 					var:actor_country = {
 						launch_nuke = {
 							province = var:ROOT.target_province #optional use either province or state
@@ -214,10 +206,6 @@ types = {
 						}
 					}
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
-						custom_effect_tooltip = raid_nuclear_strike_tt
-					}
 				}
 			}
 		}
@@ -351,10 +339,6 @@ types = {
 				}
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
-						#custom_effect_tooltip = raid_nuclear_strike_tt
-					}
 					var:actor_country = {
 						launch_nuke = {
 							province = var:ROOT.target_province #optional use either province or state
@@ -370,9 +354,6 @@ types = {
 
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_nuclear = yes
-					}
 					var:actor_country = {
 						launch_nuke = {
 							province = var:ROOT.target_province #optional use either province or state
@@ -565,10 +546,6 @@ types = {
 				}
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }   
-					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
-						custom_effect_tooltip = raid_nuclear_strike_tt
-					}
 					var:actor_country = {
 						launch_nuke = {
 							province = var:ROOT.target_province #optional use either province or state
@@ -585,10 +562,6 @@ types = {
 				}
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
-						custom_effect_tooltip = raid_nuclear_strike_tt
-					}
 					var:actor_country = {
 						launch_nuke = {
 							province = var:ROOT.target_province #optional use either province or state
@@ -729,11 +702,6 @@ types = {
 				}
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
-						#custom_effect_tooltip = raid_nuclear_strike_tt
-					}
-					
 					var:actor_country = {
 						launch_nuke = {
 							province = var:ROOT.target_province #optional use either province or state
@@ -749,9 +717,6 @@ types = {
 				}
 				victim_effects = {
 					var:actor_country = { save_global_event_target_as = nuclear_gandhi_actor_country }  
-					var:target_state = {
-						bathe_in_hellfire_thermonuclear = yes
-					}
 					var:actor_country = {
 						launch_nuke = {
 							province = var:ROOT.target_province #optional use either province or state

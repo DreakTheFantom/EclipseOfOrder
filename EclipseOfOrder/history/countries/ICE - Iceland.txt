@@ -1,6 +1,6 @@
 ﻿capital = 100 #Iceland
 
-set_#oob = "ICE_1936"
+# = "ICE_1936"
 
 set_research_slots = 2
 

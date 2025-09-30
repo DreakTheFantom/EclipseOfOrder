@@ -25,10 +25,6 @@ MTG_naval_treaties = {
 		has_dlc = "Man the Guns"
 	}
 	visible = {
-		OR = {
-			has_naval_treaty_trigger = yes
-			is_major = yes
-		}
 		any_owned_state = {
 			is_coastal = yes
 		}
@@ -176,15 +172,7 @@ fascism_on_the_rise = {
 	visible = {
 		NOT = {
 			AND = {
-				original_tag = FIN
-				is_ai = yes
-				EST = { has_completed_focus = EST_national_pride_in_finland }
-			}
-		}
-		NOT = {
-			AND = {
 				has_dlc = "La Resistance"
-				POR = { has_completed_focus = POR_the_empire_of_brazil }
 				tag = BRA
 				has_government = neutrality
 				has_civil_war = yes
@@ -370,12 +358,6 @@ governments_in_exile = {
 		OR = {
 			has_dlc = "Man the Guns"
 			has_dlc = "By Blood Alone"
-		}
-	}
-
-	visible = {
-		NOT = {
-			has_completed_focus = NOR_the_kings_no 
 		}
 	}
 

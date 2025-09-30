@@ -162,7 +162,7 @@ set_popularities = {
 	neutrality = 30
 }
 
-add_ideas = {
+# = {
 }
 
 #oob = SHL_hermann_ludemann

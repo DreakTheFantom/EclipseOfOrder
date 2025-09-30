@@ -1937,7 +1937,6 @@ focus_tree = {
 			}
 			modifier = {
 				factor = 20
-				has_idea = SOV_russian_political_influence
 			}
 		}
 
@@ -1982,10 +1981,6 @@ focus_tree = {
 					is_historical_focus_on = yes
 					NOT = { has_government = fascism }
 				}
-			}
-			modifier = {
-				factor = 10
-				has_idea = SOV_russian_political_influence
 			}
 		}
 

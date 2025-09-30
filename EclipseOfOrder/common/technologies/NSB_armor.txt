@@ -189,13 +189,6 @@ technologies = {
 
 					load_oob = "unlock_tanks"
 				}
-
-				if = { #Italian templates
-					limit = {
-						original_tag = ITA
-					}
-					ITA_add_improved_light_tank_templates = yes
-				}
 			}
 
 			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
@@ -670,12 +663,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-				}
-				ITA_add_improved_medium_tank_templates = yes
-			}
 			IF = { #Hungarian templates
 				limit = {
 					original_tag = HUN
@@ -814,12 +801,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-				}
-				ITA_add_advanced_medium_tank_templates = yes
-			}
 			IF = { #Hungarian templates
 				limit = {
 					original_tag = HUN
@@ -1828,12 +1809,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-				}
-				ITA_add_improved_heavy_tank_templates = yes
-			}
 		}
 
 		ai_will_do = {
@@ -1898,12 +1873,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = { #Italian templates
-				limit = {
-					original_tag = ITA
-				}
-				ITA_add_advanced_heavy_tank_templates = yes
-			}
 		}
 
 		ai_will_do = {

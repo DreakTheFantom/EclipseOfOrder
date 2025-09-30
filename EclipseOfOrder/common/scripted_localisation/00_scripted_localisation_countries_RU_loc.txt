@@ -1,4 +1,5 @@
-#################################################################################################################################################
+
+#################################################################################################################################################
 ############################ HOI4 Automated Scripted Localization French by Native Prime ########################################################
 ############################ Version Date: 14.04.2025 ###########################################################################################
 
@@ -535,11 +536,6 @@ defined_text = {
 
 ##### Cosmetic Tag (1) + Ideology + Sub-Ideology	330 #####
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = SPR_POR_anarchism_neutrality_RU_Gen
 	}
 	text = {
@@ -20208,11 +20204,6 @@ defined_text = {
 
 ##### Cosmetic Tag (1) + Ideology + Sub-Ideology	330 #####
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = SPR_POR_anarchism_neutrality_RU_Dat
 	}
 	text = {
@@ -35264,7 +35255,8 @@ defined_text = {
 		}
 		localization_key = SPM_neutrality_RU_Dat
 	}
-	text = {
+
+	text = {
 		trigger = {
 			original_tag = SAU
 			has_government = neutrality
@@ -39882,11 +39874,6 @@ defined_text = {
 
 ##### Cosmetic Tag (1) + Ideology + Sub-Ideology	330 #####
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = SPR_POR_anarchism_neutrality_RU_Acc
 	}
 	text = {
@@ -59555,11 +59542,6 @@ defined_text = {
 
 ##### Cosmetic Tag (1) + Ideology + Sub-Ideology	330 #####
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = SPR_POR_anarchism_neutrality_RU_Inst
 	}
 	text = {
@@ -70193,7 +70175,8 @@ defined_text = {
 		}
 		localization_key = IMO_neutrality_RU_Inst
 	}
-	text = {
+
+	text = {
 		trigger = {
 			original_tag = MAD
 			has_government = fascism
@@ -79228,11 +79211,6 @@ defined_text = {
 
 ##### Cosmetic Tag (1) + Ideology + Sub-Ideology	330 #####
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = SPR_POR_anarchism_neutrality_RU_Prep
 	}
 	text = {
@@ -98828,11 +98806,6 @@ defined_text = {
 		localization_key = GREATER_LIT_neutrality_subject_ADJ_RU_lower
 	}
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = SPR_POR_anarchism_neutrality_ADJ_RU_lower
 	}
 
@@ -103843,7 +103816,8 @@ defined_text = {
 		}
 		localization_key = MAN_JAP_fascism_autonomy_wtt_imperial_subject_ADJ_RU_lower
 	}
-	text = {
+
+	text = {
 		trigger = {
 				OR = {
 					AND = {
@@ -115890,11 +115864,6 @@ defined_text = {
 
 ##### Cosmetic Tag (1) + Ideology + Sub-Ideology	330 #####
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = RU_End_Past_A
 	}
 	text = {
@@ -126943,11 +126912,7 @@ defined_text = {
 						has_government = neutrality
 						is_subject = yes
 				}
-					AND = {
-						has_cosmetic_tag = SPR_POR_anarchism
-						has_government = neutrality
-						has_country_leader_ideology = anarchism
-				}
+					has_government = neutrality
 			}
 		}
 		localization_key = RU_End_Present_Et
@@ -129426,7 +129391,8 @@ defined_text = {
 		}
 		localization_key = RU_End_Present_Et
 	}
-	text = {
+
+	text = {
 		trigger = {
 				OR = {
 					AND = {
@@ -137869,11 +137835,7 @@ defined_text = {
 						has_government = neutrality
 						is_subject = yes
 				}
-					AND = {
-						has_cosmetic_tag = SPR_POR_anarchism
-						has_government = neutrality
-						has_country_leader_ideology = anarchism
-				}
+					has_government = neutrality
 			}
 		}
 		localization_key = RU_End_Present_Et
@@ -148785,7 +148747,8 @@ defined_text = {
 		}
 		localization_key = RU_Suffix_Dzhet
 	}
-
+
+
 ##### Cosmetic Tag (1) + Ideology + Subject	330 #####
 	text = {
 		trigger = {
@@ -148795,11 +148758,7 @@ defined_text = {
 						has_government = neutrality
 						is_subject = yes
 				}
-					AND = {
-						has_cosmetic_tag = SPR_POR_anarchism
-						has_government = neutrality
-						has_country_leader_ideology = anarchism
-				}
+					has_government = neutrality
 			}
 		}
 		localization_key = RU_Suffix_Dzhet
@@ -159743,11 +159702,6 @@ defined_text = {
 
 ##### Cosmetic Tag (1) + Ideology + Sub-Ideology	330 #####
 	text = {
-		trigger = {
-			has_cosmetic_tag = SPR_POR_anarchism
-			has_government = neutrality
-			has_country_leader_ideology = anarchism
-		}
 		localization_key = RU_Adj_Ending_Aya
 	}
 	text = {
@@ -169058,7 +169012,8 @@ defined_text = {
 		}
 		localization_key = RU_Adj_Ending_Iy
 	}
-	text = {
+
+	text = {
 		trigger = {
 				OR = {
 					AND = {
@@ -170423,4 +170378,5 @@ defined_text = {
 		}
 		localization_key = RU_Adj_Ending_Oe
 	}
-}
+}
+

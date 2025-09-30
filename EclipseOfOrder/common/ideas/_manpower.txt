@@ -62,12 +62,6 @@ ideas = {
 						}
 					}
 				}
-
-				if = {
-					limit = {
-						DEN_aat_is_subject = yes
-					}
-				}
 			}
 
 			ai_will_do = {
@@ -179,11 +173,6 @@ ideas = {
 				}
 				if = {
 					limit = {
-						DEN_aat_is_subject = yes
-					}
-				}
-				if = {
-					limit = {
 						original_tag = AUS
 					}
 				}
@@ -213,7 +202,6 @@ ideas = {
 				}
 				modifier = {
 					tag = ENG
-					has_idea_with_trait = military_theorist
 					factor = 20
 				}
 				modifier = {
@@ -259,7 +247,6 @@ ideas = {
 				OR = {
 					has_government = fascism
 					has_government = communism
-					SWE_rapid_mob_manpower_law_trigger = yes 
 					if = {
 						limit = {
 							original_tag = DEN
@@ -376,12 +363,6 @@ ideas = {
 				}
 				if = {
 					limit = {
-						DEN_aat_is_subject = yes
-					}
-					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
-				}
-				if = {
-					limit = {
 						original_tag = AUS
 					}
 				}
@@ -475,7 +456,6 @@ ideas = {
 				OR = {
 					has_government = fascism
 					has_government = communism
-					SWE_rapid_mob_manpower_law_trigger = yes
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.6
@@ -568,11 +548,6 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-					}
-				}
-				if = {
-					limit = {
-						DEN_aat_is_subject = yes
 					}
 				}
 				if = {
@@ -765,12 +740,6 @@ ideas = {
 				}
 				if = {
 					limit = {
-						DEN_aat_is_subject = yes
-					}
-					NOT = { has_country_flag = DEN_cannot_increase_conscription_law }
-				}
-				if = {
-					limit = {
 						original_tag = AUS
 					}
 				}
@@ -940,11 +909,6 @@ ideas = {
 						limit = {
 							has_dlc = "Arms Against Tyranny"
 						}
-					}
-				}
-				if = {
-					limit = {
-						DEN_aat_is_subject = yes
 					}
 				}
 				if = {

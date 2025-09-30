@@ -163,10 +163,5 @@ set_popularities = {
 
 #oob = GEN_hans_frank
 
-add_ideas = {
-	war_economy
-	extensive_conscription
-}
-
 
 
