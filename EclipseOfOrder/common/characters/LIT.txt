@@ -1,0 +1,17 @@
+characters = {
+
+	LIT_gitanas_nauseda = {
+		name = LIT_gitanas_nauseda
+		portraits = {
+			civilian = {
+				large = GFX_portrait_LIT_gitanas_nauseda
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			# traits = { } # ADD WHEN DONE
+			expire = "9999.9.9.9"
+			id = -1
+		}
+	}
+}

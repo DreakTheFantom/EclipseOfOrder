@@ -27,6 +27,8 @@ set_politics = {
 	elections_allowed = yes
 }
 
+recruit_character = BLR_alexander_lukashenko
+
 set_popularities = {
 	democratic = 35
 	conservative = 60

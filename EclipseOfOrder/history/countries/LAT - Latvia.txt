@@ -12,6 +12,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+recruit_character = LAT_Egil_Levits
+
 set_popularities = {
 	democratic = 85
 	fascism = 15

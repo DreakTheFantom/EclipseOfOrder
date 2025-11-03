@@ -21,6 +21,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+recruit_character = LIT_gitanas_nauseda
+
 set_popularities = {
 	democratic = 80
 	fascism = 10

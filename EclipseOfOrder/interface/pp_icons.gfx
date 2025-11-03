@@ -1,0 +1,6 @@
+spriteTypes = {
+    SpriteType = {
+		name = "GFX_goal_placeholder_dimon"
+		texturefile = "gfx/interface/goals/focus_placeholderdimon.dds"
+	}
+}

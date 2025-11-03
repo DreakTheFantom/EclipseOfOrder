@@ -1,0 +1,48 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						original_tag = SYR
+					}
+					ROOT = {
+						original_tag = SSG
+					}
+				}
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						FROM = {
+							original_tag = SYR
+						}
+						FROM = {
+							original_tag = TUR
+						}
+						FROM = {
+							original_tag = IRQ
+						}
+					}
+					ROOT = {
+						original_tag = ROJ
+					}
+				}
+				SYR = {
+					white_peace = ROOT
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+		}
+	}
+}

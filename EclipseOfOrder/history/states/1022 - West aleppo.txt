@@ -1,0 +1,28 @@
+
+state={
+	id=1022
+	name="STATE_1022"
+	manpower = 1903203
+	
+	state_category = city
+	history={
+		owner = SSG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = SSG
+		add_core_of = SYR
+		victory_points = {
+			13382 5
+		}
+	}
+	
+
+	provinces={
+		13382
+	}
+
+	local_supplies=10.0 
+}

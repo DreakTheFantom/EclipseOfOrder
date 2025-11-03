@@ -1,19 +1,24 @@
 ﻿capital = 554
 
+oob = "SYR_2019"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
 set_politics = {
-	ruling_party = conservative
+	ruling_party = fascism
 	last_election = "2016.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
+}
+add_ideas = {
+	extensive_conscription
 }
 set_popularities = {
-	conservative = 50
-	fascism = 20
+	conservative = 20
+	fascism = 50
 	communism = 10
 	democratic = 20
 }

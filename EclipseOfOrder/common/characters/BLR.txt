@@ -1,0 +1,17 @@
+characters = {
+
+	BLR_alexander_lukashenko = {
+		name = BLR_alexander_lukashenko
+		portraits = {
+			civilian = {
+				large = GFX_portrait_BLR_Alexander_Lukashenko
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			# traits = { } # ADD WHEN DONE
+			expire = "9999.9.9.9"
+			id = -1
+		}
+	}
+}

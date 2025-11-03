@@ -10,7 +10,10 @@ state = {
 		add_core_of = UKR
 
 		victory_points = {
-			11405 1 # Zaporozhe
+			11405 5 # Zaporozhe
+		}
+		victory_points = {
+			13391 2 # Energodar
 		}
 
 		buildings = {
@@ -30,7 +33,7 @@ state = {
 	}
 
 	provinces = {
-		429 588 3399 3767 6596 9571 9729 11405 11700 
+		429 588 3399 3767 6596 9571 9729 11405 11700 13391
 	}
 
 	local_supplies = 0.0 

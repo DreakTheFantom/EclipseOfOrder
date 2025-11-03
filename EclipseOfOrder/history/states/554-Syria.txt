@@ -2,9 +2,15 @@
 state={
 	id=554
 	name="STATE_554"
-	manpower = 547797
+	manpower = 2836324
 	
-	state_category = rural
+	state_category = city
+	
+	resources={
+		steel=16 
+		aluminium=4
+		tungsten=4
+	}
 
 	history={
 		owner = SYR
@@ -12,11 +18,13 @@ state={
 			4111 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
+			arms_factory = 4
+			industrial_complex = 4
 		}
 		add_core_of = SYR	
-
+		add_claim_by = SSG
 	}
 
 

@@ -1,7 +1,7 @@
 NDefines = {
 
 NGame = {
-	START_DATE = "2019.1.1.1",
+	START_DATE = "2021.1.1.1",
 	END_DATE = "2035.1.1.1",
 	MAP_SCALE_PIXEL_TO_KM = 7.114,					-- Yes, we did the math
 	SAVE_VERSION = 25,								-- 1.16.0 (Countenance)
@@ -3272,10 +3272,10 @@ NAI = {
 },
 
 NFocus = {
-	FOCUS_POINT_DAYS = 7,						-- Each point takes a week
+	FOCUS_POINT_DAYS = 1,						-- Each point takes a day
 	FOCUS_PROGRESS_PEACE = 1,					-- Progress during peace
 	FOCUS_PROGRESS_WAR = 1,					-- Progress during war
-	MAX_SAVED_FOCUS_PROGRESS = 10,				-- This much progress can be saved while not having a focus selected
+	MAX_SAVED_FOCUS_PROGRESS = 14,				-- This much progress can be saved while not having a focus selected
 },
 
 NOperatives = {

@@ -1,0 +1,27 @@
+
+state={
+	id=1023
+	name="STATE_1023"
+	manpower = 131100
+	
+	state_category = rural
+
+	history={
+		owner = SSG
+		buildings = {
+			infrastructure = 2 #was: 5
+			industrial_complex = 1
+		}
+		add_core_of = SSG
+		add_core_of = SYR
+		victory_points {
+			13381 1
+		}
+	}
+
+	provinces={
+		13380 13381
+	}
+
+	local_supplies=10.0 
+}

@@ -1,6 +1,6 @@
 ﻿capital = 202 #Kiev
 
-#oob = "UKR_1936"
+oob = "UKR_2021"
 
 set_research_slots = 3
 
@@ -10,6 +10,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+recruit_character = UKR_vladimir_zelensky
+
 set_popularities = {
 	conservative = 15
 	fascism = 10

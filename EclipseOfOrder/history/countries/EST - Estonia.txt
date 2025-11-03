@@ -19,6 +19,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+
+recruit_character = EST_kersti_kalyilaid
+
 set_popularities = {
 	democratic = 80
 	fascism = 15

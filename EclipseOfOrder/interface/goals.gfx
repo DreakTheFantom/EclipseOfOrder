@@ -10366,16 +10366,4 @@ spriteTypes = {
 		name = "GFX_focus_generic_urban_training"
 		texturefile = "gfx/interface/goals/focus_generic_urban_training.dds"
 	}
-
-
-
-	################
-	##PLACEHOLDER###
-	################
-
-	
-	SpriteType = {
-		name = "GFX_focus_PLACEHOLDER"
-		texturefile = "gfx/interface/goals/focus_PLACEHOLDER.dds"
-	}
 }

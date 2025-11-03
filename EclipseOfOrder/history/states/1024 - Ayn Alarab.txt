@@ -1,0 +1,33 @@
+
+state={
+	id=1024
+	name="STATE_1024"
+	manpower = 1134964
+	
+	state_category = rural
+
+	history={
+		owner = ROJ
+		buildings = {
+			infrastructure = 2 #was: 5
+		}
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+		victory_points = {
+			1634 5
+		}
+		add_core_of = SSG
+		add_core_of = SYR
+		add_core_of = ROJ
+	}
+
+	provinces={
+		6883 1606 1634 901 10882 1578 1549
+	}
+
+	local_supplies=10.0 
+}

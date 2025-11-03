@@ -1,0 +1,395 @@
+﻿focus_tree = {
+	id = rus_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = RUS_thunder_on_the_east
+	}
+	focus = {
+		id = RUS_thunder_on_the_east
+		icon = GFX_goal_placeholder_dimon
+		#prerequisite = { focus = AFG_expand_telegraph_network }
+		x = 25
+		y = 0
+		#mutually_exclusive = { focus =  focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = rus.1 }
+			}
+		}
+	}
+	focus = {
+		id = RUS_tough_diplomacy
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_thunder_on_the_east }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 7
+		y = 1
+		#mutually_exclusive = { focus =  focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_peacekeeping_mission_in_karabakh
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_tough_diplomacy }
+		relative_position_id = RUS_tough_diplomacy
+		x = 1
+		y = 1
+		#mutually_exclusive = { focus =  focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_keep_frontline_frozen_in_donbass
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_tough_diplomacy }
+		relative_position_id = RUS_tough_diplomacy
+		x = -1
+		y = 1
+		#mutually_exclusive = { focus =  focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_continue_dialogue_with_nato
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_peacekeeping_mission_in_karabakh }
+		prerequisite = { focus = RUS_keep_frontline_frozen_in_donbass }
+		relative_position_id = RUS_tough_diplomacy
+		x = 0
+		y = 2
+		#mutually_exclusive = { focus =  focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_dealing_with_opposition
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_thunder_on_the_east }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 3
+		y = 1
+		#mutually_exclusive = { focus =  focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_large_protest
+				add_idea = RUS_medium_protest
+			}
+		}
+	}
+	focus = {
+		id = RUS_supress_protests
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_dealing_with_opposition }
+		relative_position_id = RUS_dealing_with_opposition
+		x = 1
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = RUS_medium_protest
+				add_idea = RUS_small_protest
+			}
+		}
+	}
+	focus = {
+		id = RUS_liquidate_the_anticorruption_fund
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_dealing_with_opposition }
+		relative_position_id = RUS_dealing_with_opposition
+		x = -1
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.1
+				add_stability = 0.05
+			}
+		}
+	}
+	focus = {
+		id = RUS_push_the_foreign_agents_law
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_supress_protests }
+		prerequisite = { focus = RUS_liquidate_the_anticorruption_fund }
+		relative_position_id = RUS_dealing_with_opposition
+		x = 0
+		y = 2
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+			remove_ideas = RUS_small_protest
+		}
+	}
+	focus = {
+		id = RUS_economic_policy_under_sanctions
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_thunder_on_the_east }
+		relative_position_id = RUS_thunder_on_the_east
+		x = -3
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_oil_must_flow
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_economic_policy_under_sanctions }
+		relative_position_id = RUS_economic_policy_under_sanctions
+		x = 1
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_fund_bussines_support
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_economic_policy_under_sanctions }
+		relative_position_id = RUS_economic_policy_under_sanctions
+		x = -1
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_admit_economic_growth
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_oil_must_flow }
+		prerequisite = { focus = RUS_fund_bussines_support }
+		relative_position_id = RUS_economic_policy_under_sanctions
+		x = 0
+		y = 2
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_second_army_of_the_world
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_thunder_on_the_east }
+		relative_position_id = RUS_thunder_on_the_east
+		x = -7
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_ratnik2_programm
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_second_army_of_the_world }
+		relative_position_id = RUS_second_army_of_the_world
+		x = 1
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_experience_of_warfare_in_donbass
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_second_army_of_the_world }
+		relative_position_id = RUS_second_army_of_the_world
+		x = -1
+		y = 1
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_military_exercises_zapad_21
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_ratnik2_programm }
+		prerequisite = { focus = RUS_experience_of_warfare_in_donbass }
+		relative_position_id = RUS_second_army_of_the_world
+		x = 0
+		y = 2
+		#mutually_exclusive = { focus = focus =  }
+		cost = 21
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_prepare_for_sanctions
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_demands_cancelled }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 2
+		y = 6
+		cost = 9
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_demands_cancelled
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_demands_to_nato }
+		mutually_exclusive = { focus = RUS_demands_accepted }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 4
+		y = 5
+		cost = 9
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_demands_accepted
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_demands_to_nato }
+		mutually_exclusive = { focus = RUS_demands_cancelled }
+		relative_position_id = RUS_thunder_on_the_east
+		x = -4
+		y = 5
+		cost = 9
+		available = {
+			always = no
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_war_strategy
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_demands_cancelled }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 4
+		y = 6
+		cost = 9
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_awake_russian_spirit
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_demands_cancelled }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 6
+		y = 6
+		cost = 9
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_demands_to_nato
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_military_exercises_zapad_21 }
+		prerequisite = { focus = RUS_push_the_foreign_agents_law }
+		prerequisite = { focus = RUS_admit_economic_growth }
+		prerequisite = { focus = RUS_continue_dialogue_with_nato }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 0
+		y = 4
+		#mutually_exclusive = { focus = focus =  }
+		cost = 9
+		available = {
+		}
+		completion_reward = {
+			mark_focus_tree_layout_dirty = yes
+		}
+	}
+	focus = {
+		id = RUS_recognition_of_donbass_republics
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_awake_russian_spirit }
+		prerequisite = { focus = RUS_demands_to_nato }
+		prerequisite = { focus = RUS_prepare_for_sanctions }
+		prerequisite = { focus = RUS_war_strategy }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 4
+		y = 7
+		#mutually_exclusive = { focus = focus =  }
+		cost = 23
+		# allow_branch = { has_completed_focus = RUS_demands_to_nato }
+		available = {
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = RUS_launch_smo
+		icon = GFX_goal_placeholder_dimon
+		prerequisite = { focus = RUS_recognition_of_donbass_republics }
+		relative_position_id = RUS_thunder_on_the_east
+		x = 4
+		y = 8
+		#mutually_exclusive = { focus = focus =  }
+		cost = 3
+		available = {
+		}
+		completion_reward = {
+			declare_war_on = { target = ukr type = annex_everything }
+		}
+	}	
+}

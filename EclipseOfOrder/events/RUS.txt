@@ -1,0 +1,29 @@
+add_namespace = rus
+
+country_event = {
+    id = rus.1 # navalny arrest
+    title = rus.1.t
+    desc = rus.1.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+        name = rus.1.a
+		add_ideas = RUS_large_protest
+    }
+}
+country_event = {
+    id = rus.2 # navalny arrest
+    title = rus.2.t
+    desc = rus.2.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+        name = rus.2.a
+		add_timed_idea = {
+			idea = RUS_zapad_21
+			days = 60
+		}
+    }
+}

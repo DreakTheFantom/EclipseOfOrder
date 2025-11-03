@@ -1207,8 +1207,16 @@
  STATE_1014: "Bahrain"
  STATE_1015: "Oman"
  STATE_1016: "Dhofar"
- STATE_1017: "Luhansk"
-
+ STATE_1017: "Luhansk" ### PROJECT PROMETHEUS ###
+ STATE_1018: "Golan"
+ STATE_1019: "North Aleppo"
+ STATE_1020: "Sour"
+ STATE_1021: "Gaza city"
+ STATE_1022: "West Aleppo"
+ STATE_1023: "Idlib"
+ STATE_1024: "Rakka"
+ STATE_1025: "Erbil"
+ STATE_1026: "Naxchiven"
 
 
 

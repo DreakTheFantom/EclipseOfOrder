@@ -1,0 +1,26 @@
+
+state={
+	id=1020
+	name="STATE_1020"
+	manpower = 193203
+	
+	state_category = rural
+
+	history={
+		owner = HMS
+		buildings = {
+			infrastructure = 2 #was: 5
+		}
+		add_core_of = HMS
+		add_core_of = LEB
+		victory_points = {
+			13379 1
+		}
+	}
+
+	provinces={
+		13379
+	}
+
+	local_supplies=10.0 
+}

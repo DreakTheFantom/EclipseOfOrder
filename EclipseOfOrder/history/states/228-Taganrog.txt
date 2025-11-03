@@ -11,15 +11,42 @@ state={
 		victory_points = {
 			9461 1
 		}
+		victory_points = {
+			13386 3
+		}
+		victory_points = {
+			3491 2
+		}
+		victory_points = {
+			13388 3
+		}
+		victory_points = {
+			13389 3
+		}
+		victory_points = {
+			13390 3
+		}
+		victory_points = {
+			13392 5
+		}
+		victory_points = {
+			13396 2
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
+			13392 = {
+				bunker = 5
+			}
+			13386 = {
+				bunker = 5
+			}
 		}
 		add_core_of = RSD
 		add_claim_by = UKR
 	}
 
 	provinces={
-		523 547 570 6519 9476 11487 11513 502 3449 3466 3479 3491 6420 6776
+		523 547 570 6519 9476 11487 11513 502 3449 3466 3479 3491 6420 6776 13386 13388 13389 13390 13392 13396 13399 13400 13401 13402 13403 13404 13405 13406 13407 13408 13409 13410 13411 13412 13413 13414 13415 13416 13417 13420 13422
 	}
 
 	local_supplies=0.0 

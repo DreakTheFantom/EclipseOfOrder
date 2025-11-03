@@ -18,6 +18,8 @@ set_party_name = {
 
 capital = 219 # Moscow
 
+oob = "SOV_2021"
+
 starting_train_buffer = 3.0
 
 set_research_slots = 4

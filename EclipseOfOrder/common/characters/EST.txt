@@ -1,0 +1,17 @@
+characters = {
+
+	EST_kersti_kalyilaid = {
+		name = EST_kersti_kalyilaid
+		portraits = {
+			civilian = {
+				large = GFX_portrait_EST_kersti_kalyilaid
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			# traits = { } # ADD WHEN DONE
+			expire = "9999.9.9.9"
+			id = -1
+		}
+	}
+}
