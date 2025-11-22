@@ -1,11 +1,19 @@
 equipments = {
 	mothership_equipment = {
-		year = 1950
+		year = 1942
 
 		can_be_produced = {
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					###_aat
+				}
+			}
+			else = {
+				NOT = {
+					###
 				}
 			}
 		}
@@ -33,7 +41,7 @@ equipments = {
 	}
 
 	mothership_equipment_0 = { #Is actually 5 planes strapped to another bigger plane. Its the tuna of the air
-		year = 1950
+		year = 1942
 
 		archetype = mothership_equipment
 		priority = 100

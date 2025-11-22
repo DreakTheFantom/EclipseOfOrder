@@ -88,6 +88,9 @@ script_enum_equipment_stat = {
 	fuel_consumption_factor
 	strategic_attack
 	carrier_size
+	submarine_carrier_size
+	carrier_surface_detection
+	carrier_sub_detection
 	acclimatization_hot_climate_gain_factor			#Cannot be used with MIOS
 	acclimatization_cold_climate_gain_factor		#Cannot be used with MIOS
 	night_penalty				#Cannot be used with MIOS
@@ -129,6 +132,7 @@ script_enum_equipment_category = {
 	ballistic_missile
 	nuclear_missile
 	sam_missile
+	support_ship
 	suicide
 	scout_plane
 	maritime_patrol_plane
@@ -179,6 +183,7 @@ script_enum_equipment_bonus_type = {
 	ballistic_missile
 	nuclear_missile
 	sam_missile
+	support_ship
 	suicide
 	scout_plane
 	maritime_patrol_plane
@@ -257,6 +262,12 @@ script_enum_equipment_bonus_type = {
 	nuclear_missile_equipment_2
 	sam_missile_equipment
 	sam_missile_equipment_1
+	support_ship_hull
+	support_ship_1
+	support_ship_2
+	repair_ship_hull
+	repair_ship_1
+	repair_ship_2
 	infantry_equipment_0
 	infantry_equipment_1
 	infantry_equipment_2
@@ -309,12 +320,14 @@ script_enum_equipment_bonus_type = {
 	ship_hull_carrier_modern
 	ship_hull_carrier_conversion_bb
 	ship_hull_carrier_conversion_ca
+	ship_hull_escort_carrier
 	carrier_1
 	carrier_2
 	carrier_3
 	carrier_4
 	modern_carrier
 	mega_carrier
+	escort_carrier
 	ship_hull_cruiser
 	light_cruiser
 	ship_hull_cruiser_1
@@ -365,6 +378,7 @@ script_enum_equipment_bonus_type = {
 	ship_hull_submarine_2
 	ship_hull_submarine_3
 	ship_hull_submarine_4
+	ship_hull_carrier_submarine
 	cruiser_submarine
 	fleet_submarine
 	midget_submarine
@@ -398,13 +412,6 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_chassis_3
 	modern_tank_chassis
 	modern_tank_chassis_1
-	modern_tank_chassis_2
-	modern_tank_chassis_3
-	modern_tank_chassis_4
-	modern_tank_chassis_5
-	modern_tank_chassis_6
-	modern_tank_chassis_7
-	modern_tank_chassis_8
 	super_heavy_tank_chassis
 	super_heavy_tank_chassis_1
 	amphibious_tank_chassis
@@ -601,23 +608,8 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_artillery_chassis_1
 	super_heavy_tank_destroyer_chassis_1
 	modern_tank_aa_chassis_1
-	modern_tank_aa_chassis_2
 	modern_tank_artillery_chassis_1
-	modern_tank_artillery_chassis_2
-	modern_tank_artillery_chassis_3
-	modern_tank_artillery_chassis_4
-	modern_tank_artillery_chassis_5
-	modern_tank_artillery_chassis_6
-	modern_tank_artillery_chassis_7
-	modern_tank_artillery_chassis_8
 	modern_tank_destroyer_chassis_1
-	modern_tank_destroyer_chassis_2
-	modern_tank_destroyer_chassis_3
-	modern_tank_destroyer_chassis_4
-	modern_tank_destroyer_chassis_5
-	modern_tank_destroyer_chassis_6
-	modern_tank_destroyer_chassis_7
-	modern_tank_destroyer_chassis_8
 	gw_tank_equipment
 	light_tank_equipment_1
 	light_tank_equipment_2
@@ -656,45 +648,9 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_aa_equipment_2
 	heavy_tank_aa_equipment_3
 	modern_tank_equipment_1
-	modern_tank_equipment_2
-	modern_tank_equipment_3
-	modern_tank_equipment_4
-	modern_tank_equipment_5
-	modern_tank_equipment_6
-	modern_tank_equipment_7
-	modern_tank_equipment_8
 	modern_tank_artillery_equipment_1
-	modern_tank_artillery_equipment_2
-	modern_tank_artillery_equipment_3
-	modern_tank_artillery_equipment_4
-	modern_tank_artillery_equipment_5
-	modern_tank_artillery_equipment_6
-	modern_tank_artillery_equipment_7
-	modern_tank_artillery_equipment_8
 	modern_tank_destroyer_equipment_1
-	modern_tank_destroyer_equipment_2
-	modern_tank_destroyer_equipment_3
-	modern_tank_destroyer_equipment_4
-	modern_tank_destroyer_equipment_5
-	modern_tank_destroyer_equipment_6
-	modern_tank_destroyer_equipment_7
-	modern_tank_destroyer_equipment_8
 	modern_tank_aa_equipment_1
-	modern_tank_aa_equipment_2
-	modern_tank_aa_equipment_3
-	modern_tank_aa_equipment_4
-	modern_tank_aa_equipment_5
-	modern_tank_aa_equipment_6
-	modern_tank_aa_equipment_7
-	modern_tank_aa_equipment_8
-	modern_tank_aa_chassis_1
-	modern_tank_aa_chassis_2
-	modern_tank_aa_chassis_3
-	modern_tank_aa_chassis_4
-	modern_tank_aa_chassis_5
-	modern_tank_aa_chassis_6
-	modern_tank_aa_chassis_7
-	modern_tank_aa_chassis_8	
 	super_heavy_tank_equipment_1
 	super_heavy_tank_artillery_equipment_1
 	super_heavy_tank_destroyer_equipment_1

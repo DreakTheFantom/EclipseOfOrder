@@ -2,11 +2,11 @@
 equipments = {
 
 #	medium_tank_equipment = {
-#		year = 1950
+#		year = 1934
 #
 #		can_be_produced = {
 #			NOT = {
-#				has_idea = BUL_army_restrictions
+#				###
 #			}
 #		}
 #
@@ -58,7 +58,7 @@ equipments = {
 #
 #	# 1939
 #	medium_tank_equipment_1 = {
-#		year = 1970
+#		year = 1939
 #
 #		archetype = medium_tank_equipment
 #		priority = 50
@@ -68,7 +68,7 @@ equipments = {
 #
 #	# 1941
 #	medium_tank_equipment_2 = {
-#		year = 1990
+#		year = 1941
 #
 #		archetype = medium_tank_equipment
 #		parent = medium_tank_equipment_1
@@ -100,7 +100,7 @@ equipments = {
 #
 #	# 1943
 #	medium_tank_equipment_3 = {
-#		year = 2010
+#		year = 1943
 #
 #		archetype = medium_tank_equipment
 #		parent = medium_tank_equipment_2
@@ -131,11 +131,11 @@ equipments = {
 #	}
 #
 #	medium_tank_artillery_equipment = {
-#		year = 1950
+#		year = 1934
 #
 #		can_be_produced = {
 #			NOT = {
-#				has_idea = BUL_army_restrictions
+#				###
 #			}
 #		}
 #
@@ -186,7 +186,7 @@ equipments = {
 #	}
 #
 #	medium_tank_artillery_equipment_1 = {
-#		year = 1970
+#		year = 1939
 #
 #		archetype = medium_tank_artillery_equipment
 #		family = medium_tank_equipment_1
@@ -198,7 +198,7 @@ equipments = {
 #	}
 #
 #	medium_tank_artillery_equipment_2 = {
-#		year = 1990
+#		year = 1941
 #
 #		archetype = medium_tank_artillery_equipment
 #		parent = medium_tank_artillery_equipment_1
@@ -232,7 +232,7 @@ equipments = {
 #	}
 #
 #	medium_tank_artillery_equipment_3 = {
-#		year = 2010
+#		year = 1943
 #
 #		archetype = medium_tank_artillery_equipment
 #		parent = medium_tank_artillery_equipment_2
@@ -266,11 +266,11 @@ equipments = {
 #	}
 #
 #	medium_tank_destroyer_equipment = {
-#		year = 1950
+#		year = 1934
 #
 #		can_be_produced = {
 #			NOT = {
-#				has_idea = BUL_army_restrictions
+#				###
 #			}
 #		}
 #
@@ -322,7 +322,7 @@ equipments = {
 #
 #	# 1939
 #	medium_tank_destroyer_equipment_1 = {
-#		year = 1970
+#		year = 1939
 #
 #		archetype = medium_tank_destroyer_equipment
 #		family = medium_tank_equipment_1
@@ -335,7 +335,7 @@ equipments = {
 #
 #	# 1941
 #	medium_tank_destroyer_equipment_2 = {
-#		year = 1990
+#		year = 1941
 #
 #		archetype = medium_tank_destroyer_equipment
 #		parent = medium_tank_destroyer_equipment_1
@@ -371,7 +371,7 @@ equipments = {
 #
 #	# 1943
 #	medium_tank_destroyer_equipment_3 = {
-#		year = 2010
+#		year = 1943
 #
 #		archetype = medium_tank_destroyer_equipment
 #		parent = medium_tank_destroyer_equipment_2
@@ -407,11 +407,11 @@ equipments = {
 #
 #
 #	medium_tank_aa_equipment = {
-#		year = 1950
+#		year = 1934
 #
 #		can_be_produced = {
 #			NOT = {
-#				has_idea = BUL_army_restrictions
+#				###
 #			}
 #		}
 #
@@ -462,7 +462,7 @@ equipments = {
 #	}
 #
 #	medium_tank_aa_equipment_1 = {
-#		year = 1970
+#		year = 1939
 #
 #		archetype = medium_tank_aa_equipment
 #		family = medium_tank_equipment_1
@@ -475,7 +475,7 @@ equipments = {
 #	}
 #
 #	medium_tank_aa_equipment_2 = {
-#		year = 1990
+#		year = 1941
 #
 #		archetype = medium_tank_aa_equipment
 #		parent = medium_tank_aa_equipment_1
@@ -511,7 +511,7 @@ equipments = {
 #	}
 #
 #	medium_tank_aa_equipment_3 = {
-#		year = 2010
+#		year = 1943
 #
 #		archetype = medium_tank_aa_equipment
 #		parent = medium_tank_aa_equipment_2

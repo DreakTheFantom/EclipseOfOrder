@@ -1,12 +1,20 @@
 equipments = {
 	
 	guided_missile_equipment = {
-		year = 1990
+		year = 1936
 
 		can_be_produced = {
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					###_aat
+				}
+			}
+			else = {
+				NOT = {
+					###
 				}
 			}
 		}
@@ -44,7 +52,7 @@ equipments = {
 	}
 
 	guided_missile_equipment_1 = {
-		year = 2000
+		year = 1944
 
 		archetype = guided_missile_equipment
 		is_buildable = yes
@@ -60,7 +68,7 @@ equipments = {
 	}
 
 	guided_missile_equipment_2 = {
-		year = 2010
+		year = 1944
 
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_1
@@ -75,7 +83,7 @@ equipments = {
 	}
 	
 	guided_missile_equipment_3 = {
-		year = 2020
+		year = 1945
 
 		archetype = guided_missile_equipment
 		parent = guided_missile_equipment_2

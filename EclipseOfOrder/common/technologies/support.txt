@@ -82,6 +82,15 @@ technologies = {
 				factor = 4
 				date > "1939.1.1"
 			}
+
+			modifier = {
+				factor = 6
+				original_tag = CHI
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+
 		}
 	}
 
@@ -140,6 +149,15 @@ technologies = {
 				factor = 10
 				date > "1940.1.1"
 			}
+
+			modifier = {
+				factor = 6
+				original_tag = CHI
+				NOT = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+			}
+			
 		}
 
 		on_research_complete = {
@@ -156,6 +174,19 @@ technologies = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_land_military_engineering_vehicles
+			}
+
+			if = {
+				limit = {
+					original_tag = AFG
+					has_dlc = "Graveyard of Empires"
+				}
+				add_units_to_division_template = {
+					template_name = "Pashtun Levy" 
+					support = {
+						engineer = 0 
+					}
+				}
 			}
 		}
 	}
@@ -188,6 +219,23 @@ technologies = {
 			dozer_blade
 			#flamethrower #MM: Moved to Special Project sp_land_flamethrower_tank
 		}
+
+		#enable_subunits = { #MM: Moved to Special Project sp_land_flamethrower_tank
+		#	light_flame_tank
+		#	medium_flame_tank
+		#	heavy_flame_tank
+		#}
+
+		#on_research_complete = { #MM: Moved to Special Project sp_land_flamethrower_tank
+		#	hidden_effect = {
+		#		if = {
+		#			limit = {
+		#				has_dlc = "No Step Back"
+		#				original_tag = ITA
+		#			}
+		#		}
+		#	}
+		#}
 
 		path = {
 			leads_to_tech = tech_engineers3
@@ -681,6 +729,21 @@ technologies = {
 				has_war = yes
 			}
 		}
+
+		on_research_complete = {
+			if = {
+				limit = {
+					original_tag = AFG
+					has_dlc = "Graveyard of Empires"
+				}
+				add_units_to_division_template = {
+					template_name = "Pashtun Levy" 
+					support = {
+						military_police = 0 
+					}
+				}
+			}
+		}
 	}
 
 	tech_military_police2 = {
@@ -1075,6 +1138,21 @@ technologies = {
 			modifier = {
 				factor = 1.2
 				date > "1939.1.1"
+			}
+		}
+
+		on_research_complete = {
+			if = {
+				limit = {
+					original_tag = AFG
+					has_dlc = "Graveyard of Empires"
+				}
+				add_units_to_division_template = {
+					template_name = "Pashtun Levy" 
+					support = {
+						field_hospital = 0 
+					}
+				}
 			}
 		}
 	}
@@ -1913,6 +1991,11 @@ technologies = {
 		}
 
 		on_research_complete = {
+			if = {
+				limit = {
+					has_dlc = "Gotterdammerung"
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -1961,6 +2044,11 @@ technologies = {
 		}
 
 		on_research_complete = {
+			if = {
+				limit = {
+					has_dlc = "Gotterdammerung"
+				}
+			}
 		}
 
 		ai_will_do = {
@@ -2014,6 +2102,11 @@ technologies = {
 		}
 
 		on_research_complete = {
+			if = {
+				limit = {
+					has_dlc = "Gotterdammerung"
+				}
+			}
 		}
 
 		ai_will_do = {

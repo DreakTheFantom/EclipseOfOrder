@@ -48,7 +48,6 @@ types = {
 		    type = air
 		}
         unit_model = {
-            type = equipment
         }
 
 		target_type = {
@@ -344,7 +343,6 @@ types = {
 		    type = air
 		}
         unit_model = {
-            type = equipment
         }
 
 		unit_requirements = {
@@ -671,7 +669,6 @@ types = {
 		    type = air
 		}
         unit_model = {
-            type = equipment
         }
 
 		unit_requirements = {
@@ -888,7 +885,6 @@ types = {
 		    type = air
 		}
         unit_model = {
-            type = equipment
         }
 
 		unit_requirements = {
@@ -1184,7 +1180,6 @@ types = {
 		    type = air
 		}
         unit_model = {
-            type = equipment
         }
 
 		unit_requirements = {
@@ -1480,7 +1475,6 @@ types = {
 		    type = air
 		}
         unit_model = {
-            type = equipment
         }
 
 		unit_requirements = {
@@ -1792,7 +1786,6 @@ types = {
 		    type = air
 		}
         unit_model = {
-            type = equipment
         }
 
 		unit_requirements = {

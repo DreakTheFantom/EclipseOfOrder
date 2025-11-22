@@ -1681,6 +1681,10 @@ technologies = {
 				factor = 4
 				tag = USA
 			}
+
+			modifier = {
+				add = 50
+			}
 		}
 		
 		categories = {

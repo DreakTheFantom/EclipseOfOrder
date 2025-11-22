@@ -16,7 +16,7 @@ set_technology = {
 	motorised_infantry = 1
 	paratroopers = 1
 	gw_artillery = 1
-	mass_assault = 1
+	# = 1
 }
 
 set_popularities = {

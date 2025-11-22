@@ -40,7 +40,6 @@ foreign_influence = {
 		}
 
 		complete_effect = {
-			FROM = { add_timed_idea = { idea = nation_building days = 120 } }
 		}
 
 		modifier = {
@@ -89,7 +88,6 @@ foreign_influence = {
 
 		complete_effect = {
 			FROM = {
-				add_timed_idea = { idea = socialist_education days = 120 }
 			}
 		}
 		modifier = {
@@ -138,7 +136,6 @@ foreign_influence = {
 
 		complete_effect = {
 			FROM = {
-				add_timed_idea = { idea = paramilitary_training days = 120 }
 			}
 		}
 
@@ -186,7 +183,6 @@ foreign_influence = {
 
 		complete_effect = {
 			FROM = {
-				add_timed_idea = { idea = military_parade days = 120 }
 			}
 		}
 
@@ -236,10 +232,6 @@ foreign_influence = {
 		complete_effect = {
 			FROM = { country_event = { id = mtg_generic.1 } }
 			FROM = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
 			}
 			FROM = {
 				set_politics = {
@@ -291,10 +283,6 @@ foreign_influence = {
 		complete_effect = {
 			FROM = { country_event = { id = mtg_generic.1 } }
 			FROM = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
 			}
 			FROM = {
 				set_politics = {
@@ -344,13 +332,6 @@ foreign_influence = {
 		}
 
 		complete_effect = {
-			FROM = { country_event = { id = mtg_generic.1 } }
-			FROM = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
-			}
 			FROM = {
 				set_politics = {
 					ruling_party = fascism
@@ -400,12 +381,6 @@ foreign_influence = {
 
 		complete_effect = {
 			FROM = { country_event = { id = mtg_generic.1 } }
-			FROM = {
-				add_timed_idea = {
-					idea = political_turmoil
-					days = 365
-				}
-			}
 			FROM = {
 				set_politics = {
 					ruling_party = neutrality

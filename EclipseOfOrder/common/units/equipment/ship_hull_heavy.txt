@@ -1,12 +1,20 @@
 equipments = {
 
 	ship_hull_heavy = {
-		year = 1950
+		year = 1922
 
 		can_be_produced = {
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					###_aat
+				}
+			}
+			else = {
+				NOT = {
+					###
 				}
 			}
 		}
@@ -134,7 +142,7 @@ equipments = {
 
 		manpower = 4000
 
-		naval_supremacy_factor = 2.6
+		naval_dominance_factor = 300
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
 		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
@@ -143,7 +151,7 @@ equipments = {
 
 	ship_hull_pre_dreadnought = {
 		abbreviation = "hcb"
-		year = 1950
+		year = 1905
 		visual_tech_level_addition = 0
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -187,7 +195,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 2250
-		
+		naval_dominance_factor = 240
 		max_strength = 300
 		naval_speed = 18
 		fuel_consumption = 67
@@ -285,7 +293,7 @@ equipments = {
 		}
 
 		naval_range = 3000
-		
+		naval_dominance_factor = 300
 		max_strength = 350
 		reliability = 0.80
 		fuel_consumption = 67
@@ -295,7 +303,7 @@ equipments = {
 
 	ship_hull_heavy_2 = {
 		abbreviation = "hcd"
-		year = 1970
+		year = 1936
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -344,7 +352,7 @@ equipments = {
 			fixed_ship_engine_slot = heavy_ship_engine_2
 		}
 		naval_range = 3500
-		
+		naval_dominance_factor = 350
 		max_strength = 370
 		reliability = 0.85
 		fuel_consumption = 67
@@ -361,7 +369,7 @@ equipments = {
 
 	ship_hull_heavy_3 = {
 		abbreviation = "hce"
-		year = 1990
+		year = 1940
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -414,7 +422,7 @@ equipments = {
 		max_strength = 400
 		reliability = 0.9
 		fuel_consumption = 67
-		
+		naval_dominance_factor = 375
 		build_cost_ic = 3200
 		resources = {
 			#oil = 1
@@ -427,7 +435,7 @@ equipments = {
 
 	ship_hull_heavy_4 = {
 		abbreviation = "hcf"
-		year = 2010
+		year = 1944
 
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -477,7 +485,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 4500
-		
+		naval_dominance_factor = 400
 		max_strength = 450
 		naval_speed = 26
 		fuel_consumption = 67
@@ -493,7 +501,7 @@ equipments = {
 	}
 	ship_hull_heavy_modern = {
 		abbreviation = "hcf"
-		year = 2020
+		year = 1954
 		archetype = ship_hull_heavy
 		model = ship_hull_modern_super_battleship
 		priority = 1500
@@ -549,7 +557,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		naval_range = 5000
-		
+		naval_dominance_factor = 450
 		max_strength = 500
 		naval_speed = 30
 		fuel_consumption = 80
@@ -566,7 +574,7 @@ equipments = {
 
 	ship_hull_super_heavy_1 = {
 		abbreviation = "hcg"
-		year = 1970
+		year = 1940
 
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -654,6 +662,7 @@ equipments = {
 		fuel_consumption = 75
 		reliability = 0.80
 		build_cost_ic = 5500
+		naval_dominance_factor = 400
 		resources = {
 			steel = 1
 			chromium = 1
@@ -662,7 +671,7 @@ equipments = {
 	}
 
 	battleship_1 = { 
-		year = 1950
+		year = 1922
 		archetype = ship_hull_heavy
 		priority = 1500
 		visual_level = 0
@@ -770,7 +779,7 @@ equipments = {
 	}
 	
 	battleship_2 = {
-		year = 1970
+		year = 1936
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -879,7 +888,7 @@ equipments = {
 	}
 	
 	battleship_4 = {
-		year = 1990
+		year = 1944
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1500
@@ -935,7 +944,7 @@ equipments = {
 
 
 	SH_battleship_1 = {
-		year = 1970
+		year = 1936
 		visual_level = 0
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -1056,7 +1065,7 @@ equipments = {
 	}
 	
 	SH_battleship_2 = {
-		year = 1990
+		year = 1944
 		visual_level = 0
 		archetype = ship_hull_heavy
 		model = super_heavy_battleship
@@ -1179,7 +1188,7 @@ equipments = {
 		
 	}
 	battle_cruiser_1 = {
-		year = 2000
+		year = 1922
 		visual_level = 0
 		archetype = ship_hull_heavy
 		priority = 1600
@@ -1234,7 +1243,7 @@ equipments = {
 	}
 	
 	battle_cruiser_2 = {
-		year = 2010
+		year = 1940
 		visual_level = 1
 		archetype = ship_hull_heavy
 		priority = 1600

@@ -34,7 +34,6 @@ ideas = {
 		}
 		dive_bombing_spirit = {
 			ledger = air
-			visible = { has_tech = formation_flying }
 			research_bonus = {
 				cas_bomber = 0.05
 			}
@@ -54,7 +53,6 @@ ideas = {
 		}
 		material_destruction_spirit = {
 			ledger = air
-			visible = { has_tech = force_rotation }
 			research_bonus = {
 				tactical_bomber = 0.05
 			}
@@ -229,7 +227,6 @@ ideas = {
 		}
 		massed_strike_spirit = {
 			ledger = air
-			visible = { has_tech = force_rotation }
 			modifier = {
 				army_bonus_air_superiority_factor = 0.05
 			}
@@ -243,7 +240,6 @@ ideas = {
 		}
 		continuous_strike_spirit = {
 			ledger = air
-			visible = { has_tech = formation_flying }
 			modifier = {
 				air_cas_efficiency = 0.25
 			}
@@ -257,7 +253,6 @@ ideas = {
 		}
 		strategic_strike_spirit = { 
 			ledger = air
-			visible = { has_tech = air_superiority }
 			modifier = {
 				air_strategic_bomber_bombing_factor = 0.1
 			}

@@ -1,0 +1,27 @@
+state={
+	id=1027
+	name="STATE_1027"
+	manpower = 126000
+	
+	state_category = town
+	
+	resources={
+		oil = 3 # was: 10
+	}
+
+	history={
+		owner = ARZ
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARZ
+		add_core_of = AZR
+		add_core_of = ARM
+	}
+	
+	provinces={
+		1467 9715
+	}
+
+	local_supplies=0.0 
+}

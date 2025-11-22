@@ -360,8 +360,10 @@
  STATE_224:0 "Bryansk"
  STATE_225:0 "Sumy"
  STATE_226:0 "Dnipropetrovsk"
- STATE_227:0 "Donetsk"
- STATE_228:0 "West Donbass"
+ STATE_227:0 "Stalino"
+ UKR_STATE_227: "Donetsk"
+ STATE_228:0 "Voroshilovgrad"
+ UKR_STATE_228: "Luhansk"
  STATE_229:1 "Azerbaijan"
  STATE_230:0 "Armenia"
  STATE_231:0 "Georgia"
@@ -421,7 +423,7 @@
  STATE_283:0 "Gansu"
  STATE_284:0 "North Island"
  STATE_285:0 "New South Wales"
- STATE_286:1 "Southern Indochina"
+ STATE_286: "Champa" # was Southern Indochina
  STATE_287:0 "Taklamakan"
  STATE_288:0 "Magwe"
  STATE_289:0 "Siam"
@@ -466,12 +468,14 @@
  STATE_328:0 "Kirin"
  STATE_329:0 "Tannu Tuva"
  STATE_330:1 "Ulaanbaatar"
+ 330_monarchist_name: "Urga"
+ 330_non_monarchist_name: "Ikh Khüree"
  STATE_331:0 "Newfoundland"
  STATE_332:0 "Labrador"
- STATE_333:1 "North Borneo"
+ STATE_333: "Sarawak" # Was North Borneo
  STATE_334:1 "Kalimantan"
  STATE_335:0 "Java"
- STATE_336:0 "Singapore"
+ STATE_336: "Malaya" # was Singapore
  STATE_337:0 "Faroe Islands"
  STATE_338:0 "Gloucestershire"
  STATE_339:0 "Izmir"
@@ -660,19 +664,22 @@
  STATE_522:0 "Western Australia"
  STATE_523:1 "Papua"
  STATE_524:0 "Taiwan"
- STATE_525:0 "South Korea"
+ JAP_STATE_525: "Keiki"
+ STATE_525: "Gyeonggi"
  STATE_526:0 "Okinawa"
- STATE_527:0 "North Korea"
- STATE_528:0 "Kyushu"
- STATE_529:0 "Chugoku"
+ JAP_STATE_527: "Heian-Koukai"
+ STATE_527: "Pyongan-Hwanghae"
+ STATE_528: "Kitakyūshū" # was Kyushu
+ STATE_529: "San'yo" # was Chugoku
  STATE_530:0 "Shikoku"
  STATE_531:0 "Kansai"
  STATE_532:0 "Tokai"
- STATE_533:0 "Tohoku"
- STATE_534:0 "Hokuriku"
- STATE_535:0 "Koshinetsu"
+ STATE_533: "Kita-Tohoku" # was Tohoku
+ STATE_534: "Koshinetsu" # was Hokuriku
+ STATE_535: "Hokuriku" # was Koshinetsu
  STATE_536:0 "Hokkaido"
  STATE_537:0 "South Sakhalin"
+ JAP_STATE_537: "Karafuto"
  STATE_538:1 "Coquilhatville"
  STATE_539:0 "Gabon"
  STATE_540:2 "Luanda"
@@ -736,18 +743,21 @@
  STATE_598:0 "Jiangsu"
  STATE_599:0 "Guangxi"
  STATE_600:0 "Jiangxi"
- STATE_601:0 "Xikang"
+ STATE_601: "Chamdo" # Xikang 
+ TIB_STATE_601: "Kham" # Xikang 
  STATE_602:0 "Hunan"
  STATE_603:0 "Guizhou"
  STATE_604:0 "Qinghai"
  STATE_605:0 "Sichuan"
  STATE_606:0 "Anhui"
  STATE_607:0 "Henan"
- STATE_608:0 "Beijing"
+ STATE_608: "Beiping" # renamed to Beijing later 
+ #HBC_STATE_608: "Beiping" 
+ JAP_STATE_608: "Peking" 
  STATE_609:0 "East Hebei"
  STATE_610:0 "Jehol"
- STATE_611:0 "South Chahar"
- STATE_612:0 "Chahar"
+ STATE_611: "Chahar" # was South Chahar
+ STATE_612: "Xilingol" # was Chahar
  STATE_613:2 "Shanghai"
  STATE_614:0 "Hebei"
  STATE_615:0 "Shanxi"
@@ -757,13 +767,13 @@
  STATE_619:0 "Yarkand"
  STATE_620:0 "Hubei"
  STATE_621:0 "Suiyuan"
- STATE_622:0 "Shaanxi"
+ STATE_622:0 "Shaanbei" #Was Shaanxi
  STATE_623:0 "Luzon"
- STATE_624:0 "Central islands"
- STATE_625:0 "Samar"
+ STATE_624: "Central Islands"
+ STATE_625:0 "Eastern Visayas" #was Samar
  STATE_626:0 "Palawan"
- STATE_627:0 "Mindanao"
- STATE_628:0 "Cebu"
+ STATE_627: "Davao" # was Mindanao
+ STATE_628:0 "Western Visayas" #was Cebu
  STATE_629:0 "Hawaii"
  STATE_630:0 "Johnston Atoll"
  STATE_631:0 "Midway Island"
@@ -784,6 +794,7 @@
  STATE_646:0 "Saipan"
  STATE_647:0 "Palau"
  STATE_648:0 "Marcus Island"
+ JAP_STATE_648: "Minamitorishima"
  STATE_649:0 "Galapagos Islands"
  STATE_650:0 "Attu Island"
  STATE_651:0 "Ufa"
@@ -791,6 +802,7 @@
  STATE_653:0 "Sverdlovsk"
  STATE_654:1 "Oyrot Region"
  STATE_655:0 "North Sakhalin"
+ JAP_STATE_655: "Kita Karafuto"
  STATE_656:0 "Kuwait"
  STATE_657:0 "Birobidzhan"
  STATE_658:0 "Abu Dhabi"
@@ -851,13 +863,14 @@
  STATE_712:0 "Cocos Islands"
  STATE_713:0 "Kerguelen"
  STATE_714:0 "Heilungkiang"
- STATE_715:0 "Liaoning"
- STATE_716:0 "Liaotung"
+ STATE_715: "Liaobei" # Was Liaoning
+ STATE_716: "Liaoning" # Was Loatung
  STATE_717:0 "Sungkiang"
  STATE_718:0 "Stanleyville"
  STATE_719:0 "Natal"
  STATE_720:0 "South Georgia"
- STATE_721:0 "Portuguese Timor"
+ STATE_721: "East Timor"
+ POR_STATE_721: "Portuguese Timor"
  STATE_722:0 "Petsamo"
  STATE_723:0 "South Island"
  STATE_724:0 "Northern Malay"
@@ -865,6 +878,7 @@
  STATE_726:0 "Samoa"
  STATE_727:0 "Line Islands"
  STATE_728:0 "Guangzhouwan"
+ FRA_STATE_728: "Kouang-Tchéou-Wan"
  STATE_729:0 "Macau"
  STATE_730:0 "St Pierre and Miquelon"
  STATE_731:0 "Central Macedonia"
@@ -885,6 +899,8 @@
  RKO_STATE_743: "Tsingtao"
  STATE_744:0 "Xian"
  STATE_745:0 "Dalian"
+ JAP_STATE_745: "Dairen"
+ SOV_STATE_745: "Dalniy"
  STATE_746:0 "Ordos"
  STATE_747:0 "Dali"
  STATE_748:0 "Zunyi"
@@ -985,7 +1001,7 @@
  STATE_825:0 "Nenets"
  STATE_826:0 "Abkhazia"
  STATE_827:0 "Kabardino-Balkaria"
- STATE_828:0 "South Ossetia"
+ STATE_828:0 "North Ossetia"
  STATE_829:0 "Engels-Marxstadt"
  GER_STATE_829: "Wolga Deutschland"
  RKM_STATE_829: "Wolga Deutschland"
@@ -993,7 +1009,7 @@
  STATE_831:0 "Khiva"
  STATE_832:0 "Tashauz"
  STATE_833:0 "Mari El"
- STATE_834:0 "Transnistria"
+ STATE_834:0 "Balta-Tiraspol"
  STATE_835:0 "Hararghe"
  STATE_836:0 "Bale"
  STATE_837:0 "Sidamo"
@@ -1189,7 +1205,7 @@
  STATE_996: "Irrawaddy"
  STATE_997: "Arakan"
  STATE_998: "Sagaing"
- STATE_999: "Federated Shan States"
+ STATE_999: "Federated Shan"
  STATE_1000: "East Azerbaijan"
  STATE_1001: "Kurdistan"
  STATE_1002: "Yazd"
@@ -1207,7 +1223,7 @@
  STATE_1014: "Bahrain"
  STATE_1015: "Oman"
  STATE_1016: "Dhofar"
- STATE_1017: "Luhansk" ### PROJECT PROMETHEUS ###
+ STATE_1017: "Luhansk" ### INTEGRITY ###
  STATE_1018: "Golan"
  STATE_1019: "North Aleppo"
  STATE_1020: "Sour"
@@ -1217,6 +1233,10 @@
  STATE_1024: "Rakka"
  STATE_1025: "Erbil"
  STATE_1026: "Naxchiven"
+ STATE_1027: "Arzah"
+
+
+
 
 
 

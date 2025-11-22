@@ -86,6 +86,9 @@ technology_sharing_group = {
 
 	research_sharing_per_country_bonus = 0.05
 
+    available = {
+    }
+
 }
 
 technology_sharing_group = {
@@ -666,6 +669,20 @@ technology_sharing_group = {
 	research_sharing_per_country_bonus = 0.2
 
 	available = {
+		OR = {
+			AND = {
+				original_tag = FIN
+				OR = {
+					has_idea = FIN_the_lone_wolf
+					is_in_faction = yes
+				}
+			}
+			is_in_faction_with = FIN
+			overlord = {
+				original_tag = FIN
+				has_idea = FIN_the_lone_wolf
+			}
+		}
 	}
 }
 
@@ -818,7 +835,6 @@ technology_sharing_group = {
 
 }
 
-
 technology_sharing_group = {
 
 	id = RAJ_naval_tech_sharing_group
@@ -834,3 +850,43 @@ technology_sharing_group = {
         }
     }
 }
+
+technology_sharing_group = {
+
+	id = jap_geacps_research
+	name = jap_geacps_research_name
+	desc = jap_geacps_research_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+        NOT = {
+        	has_war_with = JAP
+        }
+        is_in_faction_with = JAP
+    }
+
+}
+
+technology_sharing_group = {
+
+	id = jap_usa_japan_research
+	name = jap_usa_japan_research_name
+	desc = jap_usa_japan_research_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.15
+
+    available = {
+        NOT = {
+        	has_war_with = JAP
+        }
+    }
+
+}
+
+
+
+
+

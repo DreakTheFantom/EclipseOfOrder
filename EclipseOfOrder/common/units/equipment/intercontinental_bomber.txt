@@ -1,11 +1,19 @@
 equipments = {
 	strat_bomber_intercontinental_equipment = {
-		year = 1950
+		year = 1942
 
 		can_be_produced = {
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					###_aat
+				}
+			}
+			else = {
+				NOT = {
+					###
 				}
 			}
 		}
@@ -32,7 +40,7 @@ equipments = {
 	}
 
 	strat_bomber_intercontinental_equipment_1 = { 
-		year = 1950
+		year = 1942
 
 		archetype = strat_bomber_intercontinental_equipment
 		priority = 100

@@ -1,6 +1,6 @@
 ﻿capital = 202 #Kiev
 
-oob = "UKR_2021"
+#oob = "UKR_2021"
 
 set_research_slots = 3
 

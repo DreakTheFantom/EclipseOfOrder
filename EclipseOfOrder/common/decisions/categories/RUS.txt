@@ -1,0 +1,9 @@
+RUS_ukraine_category = {
+	visible = {
+		has_completed_focus = RUS_keep_frontline_frozen_in_donbass
+		original_tag = SOV
+	}
+	available = {
+		has_completed_focus = RUS_keep_frontline_frozen_in_donbass	
+	}
+}

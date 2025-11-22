@@ -1,11 +1,11 @@
 #equipments = {
 	
 #	tac_bomber_equipment = {
-#		year = 1950
+#		year = 1933
 #
 #		can_be_produced = {
 #			NOT = {
-#				has_idea = BUL_army_restrictions
+#				###
 #			}
 #		}
 #
@@ -56,7 +56,7 @@
 #
 #	# Early Bomber
 #	tac_bomber_equipment_0 = {
-#		year = 1950
+#		year = 1933
 #
 #		archetype = tac_bomber_equipment
 #		priority = 105
@@ -163,7 +163,7 @@
 #
 #		can_be_produced = {
 #			NOT = {
-#				has_idea = BUL_army_restrictions
+#				###
 #			}
 #		}
 #
@@ -258,7 +258,7 @@
 #
 #		can_be_produced = {
 #			NOT = {
-#				has_idea = BUL_army_restrictions
+#				###
 #			}
 #		}
 #

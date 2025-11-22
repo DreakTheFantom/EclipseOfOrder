@@ -20,9 +20,52 @@ ideas = {
 		}
 		RUS_zapad_21 = {
 			modifier = {
-				training_time_army_factor = 0.1
-				experience_gain_army = 1
+				training_time_army_factor = -0.1
+				experience_gain_army = 5
 				experience_gain_army_factor = 0.2
+			}
+		}
+		RUS_russian_economic = {
+			modifier = {
+				min_export = 0.1
+				local_resources_factor = 0.15
+				research_speed_factor = 0.05
+			}
+		}
+		RUS_russian_economic2 = {
+			modifier = {
+				min_export = 0.12
+				local_resources_factor = 0.15
+				research_speed_factor = 0.10
+			}
+		}
+		RUS_russian_economic3 = {
+			modifier = {
+				min_export = 0.15
+				local_resources_factor = 0.20
+				research_speed_factor = 0.10
+			}
+		}
+		RUS_russian_army = {
+			modifier = {
+				army_attack_factor = 0.05
+				army_core_defence_factor = 0.10
+				breakthrough_factor = 0.10
+				army_org_factor = 0.10
+				army_org_regain = 0.05
+				mobilization_speed = 0.10
+			}
+		}
+		RUS_sanctions1 = {
+			modifier = {
+				consumer_goods_factor = 0.10
+				trade_opinion_factor = -0.10 
+			}
+		}
+		RUS_sanctions2 = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				trade_opinion_factor = -0.05 
 			}
 		}
 	}

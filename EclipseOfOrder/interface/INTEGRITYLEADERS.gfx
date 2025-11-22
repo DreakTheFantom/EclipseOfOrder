@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = GFX_portrait_SOV_vladimir_putin
+		texturefile = "gfx/leaders/SOV/SOV_vladimir_putin.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_USA_donald_trump
+		texturefile = "gfx/leaders/USA/USA_donald_trump.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_UKR_vladimir_zelensky
+		texturefile = "gfx/leaders/UKR/UKR_Vladimir_Zelenskiy.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_LIT_gitanas_nauseda
+		texturefile = "gfx/leaders/LIT/LIT_gitanas_nauseda.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_EST_kersti_kalyilaid
+		texturefile = "gfx/leaders/EST/EST_kersti_kalyilaid.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_LAT_Egil_Levits
+		texturefile = "gfx/leaders/LAT/LAT_Egil_Levits.dds"
+	}
+	spriteType = {
+		name = GFX_portrait_BLR_Alexander_Lukashenko
+		texturefile = "gfx/leaders/BLR/BLR_Alexander_Lukashenko.dds"
+	}
+}

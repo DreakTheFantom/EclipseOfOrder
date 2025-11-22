@@ -8,6 +8,14 @@ equipments = {
 				limit = {
 					has_dlc = "Gotterdammerung"
 				}
+				NOT = {
+					###_aat
+				}
+			}
+			else = {
+				NOT = {
+					###
+				}
 			}
 		}
 

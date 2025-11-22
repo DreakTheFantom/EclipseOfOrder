@@ -1,12 +1,20 @@
 equipments = {
 
 	ship_hull_submarine = {
-		year = 1950
+		year = 1922
 
 		can_be_produced = {
 			if = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
+				}
+				NOT = {
+					###_aat
+				}
+			}
+			else = {
+				NOT = {
+					###
 				}
 			}
 		}
@@ -91,7 +99,7 @@ equipments = {
 		
 		manpower = 200
 
-		naval_supremacy_factor = 0.8
+		naval_dominance_factor = 9
 		naval_weather_penalty_factor = 1 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
 		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
 		# change this from 1 at your own risk
@@ -99,12 +107,13 @@ equipments = {
 
 	ship_hull_submarine_1 = {
 		abbreviation = "heb"
-		year = 1970
+		year = 1922
 
 		archetype = ship_hull_submarine
 		priority = 2500
 		
 		module_slots = inherit
+		naval_dominance_factor = 9
 	}
 
 	ship_hull_submarine_2 = {
@@ -134,7 +143,7 @@ equipments = {
 		sub_visibility = 22
 		naval_speed = 17
 		reliability = 0.70
-
+		naval_dominance_factor = 11
 		naval_range = 2500
 		reliability = 0.70
 		max_strength = 20
@@ -150,7 +159,7 @@ equipments = {
 
 	ship_hull_submarine_3 = {
 		abbreviation = "hed"
-		year = 1990
+		year = 1940
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -187,7 +196,7 @@ equipments = {
 		reliability = 0.75
 		
 		naval_range = 3000
-		
+		naval_dominance_factor = 13
 		max_strength = 30
 
 
@@ -199,7 +208,7 @@ equipments = {
 	}
 	ship_hull_submarine_4 = {
 		abbreviation = "hee"
-		year = 2010
+		year = 1944
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -236,7 +245,7 @@ equipments = {
 		reliability = 0.80
 
 		naval_range = 3500
-		
+		naval_dominance_factor = 15
 		max_strength = 35
 		
 
@@ -250,7 +259,7 @@ equipments = {
 
 	ship_hull_cruiser_submarine = {
 		abbreviation = "hef"
-		year = 2020
+		year = 1940
 		model = ship_hull_cruiser_submarine
 		archetype = ship_hull_submarine
 		priority = 2600
@@ -295,7 +304,7 @@ equipments = {
 		sub_visibility = 20
 		naval_speed = 16
 		reliability = 0.75
-		
+		naval_dominance_factor = 10
 		naval_range = 5000
 		
 		max_strength = 30
@@ -310,7 +319,7 @@ equipments = {
 
 	ship_hull_fleet_submarine = {
 		abbreviation = "hefs"
-		year = 1950
+		year = 1940
 		model = ship_hull_fleet_submarine
 		archetype = ship_hull_submarine
 		priority = 2600
@@ -357,7 +366,7 @@ equipments = {
 		reliability = 0.75
 		
 		naval_range = 6500
-		
+		naval_dominance_factor = 12
 		max_strength = 40
 
 
@@ -370,7 +379,7 @@ equipments = {
 
 	ship_hull_midget_submarine = {
 		abbreviation = "ssm"
-		year = 1970
+		year = 1940
 
 		archetype = ship_hull_submarine
 		priority = 1500
@@ -393,7 +402,7 @@ equipments = {
 		max_strength = 5
 
 		manpower = 100
-
+		naval_dominance_factor = 7
 		
 		build_cost_ic = 150
 		resources = {
@@ -404,7 +413,7 @@ equipments = {
 
 	ship_hull_nuclear_submarine = {
 		abbreviation = "hefns"
-		year = 1990
+		year = 1954
 		model = ship_hull_nuclear_powered_submarine
 		archetype = ship_hull_submarine
 		priority = 2800
@@ -460,7 +469,7 @@ equipments = {
 		reliability = 0.75
 		
 		naval_range = 10000
-		
+		naval_dominance_factor = 14
 		manpower = 400
 		max_strength = 50
 
@@ -473,8 +482,57 @@ equipments = {
 		}
 	}
 
+	ship_hull_carrier_submarine = {
+		abbreviation = "hefnx"
+		year = 1944
+		archetype = ship_hull_submarine
+		model = ship_hull_carrier_submarine
+		type = { submarine carrier}
+		priority = 2650
+
+		module_slots = {
+			fixed_ship_torpedo_slot = inherit
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+					ship_extra_fuel_tank
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_radar
+					ship_sub_snorkel
+					ship_sub_coating
+				}
+			}
+			rear_1_custom_slot = {
+				required = yes
+				allowed_module_categories = { ship_submarine_deck_space }
+			}						
+		}
+
+		sub_visibility = 20
+		naval_speed = 18
+		reliability = 0.75
+		
+		naval_range = 6500
+		
+		max_strength = 50
+		manpower = 350
+
+		naval_dominance_factor = 14
+		build_cost_ic = 850
+		resources = {
+			steel = 3
+		}		
+	}
+
 	submarine_1 = {
-		year = 1950
+		year = 1922
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -520,7 +578,7 @@ equipments = {
 	}
 	
 	submarine_2 = {
-		year = 1970
+		year = 1936
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -563,7 +621,7 @@ equipments = {
 	}
 	
 	submarine_3 = {
-		year = 1990
+		year = 1940
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -605,7 +663,7 @@ equipments = {
 	}
 	
 	submarine_4 = {
-		year = 2010
+		year = 1944
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -648,7 +706,7 @@ equipments = {
 	}
 
 	cruiser_submarine = {
-		year = 1970
+		year = 1936
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -747,7 +805,7 @@ equipments = {
 	}
 
 	fleet_submarine = {
-		year = 1970
+		year = 1940
 
 		archetype = ship_hull_submarine
 		priority = 2500
@@ -844,7 +902,7 @@ equipments = {
 	}
 	midget_submarine = {
 		abbreviation = "ssm"
-		year = 1970
+		year = 1940
 
 		archetype = ship_hull_submarine
 		priority = 1500
@@ -902,7 +960,7 @@ equipments = {
 
 	nuclear_submarine = {
 		abbreviation = "ssn"
-		year = 1990
+		year = 1950
 		model = ship_hull_nuclear_powered_submarine
 		archetype = ship_hull_submarine
 		priority = 1500
@@ -1004,7 +1062,7 @@ equipments = {
 
 	rocket_submarine = {
 		abbreviation = "ssr"
-		year = 1990
+		year = 1946
 		model = ship_hull_fleet_submarine
 		archetype = ship_hull_submarine
 		priority = 1500
@@ -1106,7 +1164,7 @@ equipments = {
 
 	nuclear_missile_submarine = {
 		abbreviation = "ssnc"
-		year = 1990
+		year = 1954
 		model = ship_hull_nuclear_powered_submarine
 		archetype = ship_hull_submarine
 		priority = 1500
@@ -1204,5 +1262,5 @@ equipments = {
 			steel = 4
 			chromium = 2
 		}	
-	}	
+	}
 }

@@ -13,7 +13,7 @@ country_event = {
     }
 }
 country_event = {
-    id = rus.2 # navalny arrest
+    id = rus.2 # zapad-21
     title = rus.2.t
     desc = rus.2.d
     

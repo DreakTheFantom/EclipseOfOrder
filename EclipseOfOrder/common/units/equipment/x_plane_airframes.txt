@@ -217,7 +217,7 @@ equipments = {
 
 	# Basic Fighter
 	fighter_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = small_plane_airframe
 		parent = fighter_equipment_0
@@ -281,7 +281,7 @@ equipments = {
 
 	# Advanced Fighter
 	fighter_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = small_plane_airframe
 		parent = fighter_equipment_2
@@ -313,7 +313,7 @@ equipments = {
 
 	# Basic Jet Fighter
 	jet_fighter_equipment_1 = {
-		year = 1950
+		year = 1945
 
 		archetype = jet_fighter_equipment
 		priority = 20
@@ -472,7 +472,7 @@ equipments = {
 
 	# Basic Carrier Fighter
 	cv_fighter_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = cv_small_plane_airframe
 		parent = cv_fighter_equipment_0
@@ -537,7 +537,7 @@ equipments = {
 
 	# Advanced Carrier Fighter
 	cv_fighter_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = cv_small_plane_airframe
 		parent = cv_fighter_equipment_2
@@ -576,7 +576,7 @@ equipments = {
 
 	# Basic CAS
 	CAS_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = small_plane_cas_airframe
 		priority = 40
@@ -653,7 +653,7 @@ equipments = {
 
 	# Advanced CAS
 	CAS_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = small_plane_cas_airframe
 		parent = CAS_equipment_2
@@ -691,7 +691,7 @@ equipments = {
 
 	# Basic Carrier CAS
 	cv_CAS_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = cv_small_plane_cas_airframe
 		carrier_capable = yes
@@ -772,7 +772,7 @@ equipments = {
 
 	# Advanced Carrier CAS
 	cv_CAS_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = cv_small_plane_cas_airframe
 		parent = cv_CAS_equipment_2
@@ -811,7 +811,7 @@ equipments = {
 
 	# Basic nav_bomber
 	nav_bomber_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = small_plane_naval_bomber_airframe
 		priority = 60
@@ -888,7 +888,7 @@ equipments = {
 
 	# Advanced nav_bomber
 	nav_bomber_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = small_plane_naval_bomber_airframe
 		parent = nav_bomber_equipment_2
@@ -925,7 +925,7 @@ equipments = {
 
 	 # Basic Carrier nav_bomber
 	cv_nav_bomber_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = cv_small_plane_naval_bomber_airframe
 		carrier_capable = yes
@@ -1004,7 +1004,7 @@ equipments = {
 
 	# Advanced Carrier nav_bomber
 	cv_nav_bomber_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = cv_small_plane_naval_bomber_airframe
 		parent = cv_nav_bomber_equipment_2
@@ -1040,7 +1040,7 @@ equipments = {
 
 	# Basic Rocket Interceptor
 	rocket_interceptor_equipment_1 = {
-		year = 1950
+		year = 1944
 
 		archetype = rocket_interceptor_equipment
 		priority = 80
@@ -1077,7 +1077,7 @@ equipments = {
 
 	# Improved Rocket Interceptor
 	rocket_interceptor_equipment_2 = {
-		year = 1950
+		year = 1945
 
 		archetype = rocket_interceptor_equipment
 		parent = rocket_interceptor_equipment_1
@@ -1104,7 +1104,7 @@ equipments = {
 
 	# Advanced Rocket Interceptor
 	rocket_interceptor_equipment_3 = {
-		year = 1950
+		year = 1946
 
 		archetype = rocket_interceptor_equipment
 		parent = rocket_interceptor_equipment_2
@@ -1137,7 +1137,7 @@ equipments = {
 
 	# Rocket interceptor suicide craft!
 	rocket_suicide_equipment_1 = {
-		year = 1950
+		year = 1944
 
 		archetype = small_plane_suicide_airframe
 		priority = 90
@@ -1178,7 +1178,7 @@ equipments = {
 
 	 # Early Bomber
 	tac_bomber_equipment_0 = {
-		year = 1950
+		year = 1933
 
 		archetype = medium_plane_airframe
 		priority = 105
@@ -1228,7 +1228,7 @@ equipments = {
 
 	# Basic tac_bomber
 	tac_bomber_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = medium_plane_airframe
 		parent = tac_bomber_equipment_0
@@ -1294,7 +1294,7 @@ equipments = {
 
 	# Advanced tac_bomber
 	tac_bomber_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = medium_plane_airframe
 		parent = tac_bomber_equipment_2
@@ -1327,7 +1327,7 @@ equipments = {
 
 	# Basic Jet tac_bomber
 	jet_tac_bomber_equipment_1 = {
-		year = 1950
+		year = 1945
 
 		archetype = jet_tac_bomber_equipment
 		priority = 120
@@ -1416,7 +1416,7 @@ equipments = {
 	#  # ### #  #   #     #       #   ###  ##  #  #  #  ### #  # 
 
 	heavy_fighter_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = medium_plane_fighter_airframe
 		priority = 100
@@ -1487,7 +1487,7 @@ equipments = {
 	}
 
 	heavy_fighter_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = medium_plane_fighter_airframe
 		parent = heavy_fighter_equipment_2
@@ -1522,7 +1522,7 @@ equipments = {
 	##   ##   ##   ##   #      #    ### #  # #  # ### 
 
 	scout_plane_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = medium_plane_scout_plane_airframe
 		priority = 100
@@ -1590,7 +1590,7 @@ equipments = {
 
 	# Basic strat_bomber
 	strat_bomber_equipment_1 = {
-		year = 1950
+		year = 1936
 
 		archetype = large_plane_airframe
 		priority = 140
@@ -1666,7 +1666,7 @@ equipments = {
 
 	# Advanced strat_bomber
 	strat_bomber_equipment_3 = {
-		year = 1950
+		year = 1944
 
 		archetype = large_plane_airframe
 		parent = strat_bomber_equipment_2
