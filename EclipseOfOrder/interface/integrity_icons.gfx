@@ -3,4 +3,12 @@ spriteTypes = {
 		name = "GFX_goal_placeholder_dimon"
 		texturefile = "gfx/interface/goals/focus_placeholderdimon.dds"
 	}
+	SpriteType = {
+		name = "GFX_goal_happy_2021_putin"
+		texturefile = "gfx/interface/goals/RUS/happy_2021.png"
+	}
+	SpriteType = {
+		name = "GFX_goal_supress_protests"
+		texturefile = "gfx/interface/goals/RUS/supress_protest.png"
+	}
 }

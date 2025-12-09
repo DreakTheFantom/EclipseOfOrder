@@ -1,0 +1,20 @@
+add_namespace = nato
+
+country_event = {
+    id = nato.1 # RUS DEMANDS
+    title = nato.1.t
+    desc = nato.1.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+        name = usa.1.a
+		SOV = {
+			country_event = { id = rus.4 }
+			set_country_flag = demands_no
+		}
+		hidden_effect = {
+			news_event = { id = news.4 hours = 6 }
+		}
+    }
+}

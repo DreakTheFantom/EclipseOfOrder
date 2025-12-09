@@ -4,6 +4,16 @@ RUS_ukraine_category = {
 		original_tag = SOV
 	}
 	available = {
-		has_completed_focus = RUS_keep_frontline_frozen_in_donbass	
+		has_completed_focus = RUS_keep_frontline_frozen_in_donbass
+	}
+}
+
+RUS_africa_category = {
+	visible = {
+		has_completed_focus = RUS_africa_missions
+		original_tag = SOV
+	}
+	available = {
+		has_completed_focus = RUS_africa_missions
 	}
 }

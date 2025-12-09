@@ -1,0 +1,55 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							original_tag = UKR
+							original_tag = UPA
+							original_tag = DVO
+						}
+					}
+					ROOT = {
+						OR = {
+							original_tag = UKR
+							original_tag = UPA
+							original_tag = DVO
+						}
+					}
+				}
+				FROM = {
+					white_peace = ROOT
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+				SOV = {
+					every_owned_state = {
+						remove_core_of = ROOT
+						remove_claim_by = ROOT
+					}
+				}
+				DVO = {
+					every_owned_state = {
+						remove_core_of = ROOT
+						remove_claim_by = ROOT
+					}
+				}
+				UKR = {
+					every_owned_state = {
+						remove_core_of = ROOT
+						remove_claim_by = ROOT
+					}
+				}
+				UPA = {
+					every_owned_state = {
+						remove_core_of = ROOT
+						remove_claim_by = ROOT
+					}
+				}
+			}
+		}
+	}
+}

@@ -17,7 +17,7 @@
 	}
 	focus = {
 		id = RUS_thunder_on_the_east
-		icon = GFX_goal_placeholder_dimon
+		icon = GFX_goal_happy_2021_putin
 		#prerequisite = { focus = AFG_expand_telegraph_network }
 		x = 25
 		y = 0
@@ -61,7 +61,7 @@
 		}
 	}
 	focus = {
-		id = RUS_keep_frontline_frozen_in_donbass
+		id = RUS_africa_missions
 		icon = GFX_goal_placeholder_dimon
 		prerequisite = { focus = RUS_tough_diplomacy }
 		relative_position_id = RUS_tough_diplomacy
@@ -76,10 +76,10 @@
 		}
 	}
 	focus = {
-		id = RUS_continue_dialogue_with_nato
+		id = RUS_keep_frontline_frozen_in_donbass
 		icon = GFX_goal_placeholder_dimon
 		prerequisite = { focus = RUS_peacekeeping_mission_in_karabakh }
-		prerequisite = { focus = RUS_keep_frontline_frozen_in_donbass }
+		prerequisite = { focus = RUS_africa_missions }
 		relative_position_id = RUS_tough_diplomacy
 		x = 0
 		y = 2
@@ -110,7 +110,7 @@
 	}
 	focus = {
 		id = RUS_supress_protests
-		icon = GFX_goal_placeholder_dimon
+		icon = GFX_goal_supress_protests
 		prerequisite = { focus = RUS_dealing_with_opposition }
 		relative_position_id = RUS_dealing_with_opposition
 		x = 1
@@ -311,12 +311,14 @@
 		id = RUS_demands_cancelled
 		icon = GFX_goal_placeholder_dimon
 		prerequisite = { focus = RUS_demands_to_nato }
-		mutually_exclusive = { focus = RUS_demands_accepted }
 		relative_position_id = RUS_thunder_on_the_east
-		x = 4
+		x = 0
 		y = 5
 		cost = 9
 		available = {
+		}
+		allow_branch = {
+			has_country_flag = demands_no
 		}
 		completion_reward = {
 		}
@@ -326,7 +328,7 @@
 		icon = GFX_goal_placeholder_dimon
 		prerequisite = { focus = RUS_demands_cancelled }
 		relative_position_id = RUS_thunder_on_the_east
-		x = 4
+		x = 0
 		y = 6
 		cost = 9
 		available = {
@@ -339,7 +341,7 @@
 		icon = GFX_goal_placeholder_dimon
 		prerequisite = { focus = RUS_demands_cancelled }
 		relative_position_id = RUS_thunder_on_the_east
-		x = 6
+		x = -2
 		y = 6
 		cost = 9
 		available = {
@@ -354,7 +356,7 @@
 		prerequisite = { focus = RUS_prepare_for_sanctions }
 		prerequisite = { focus = RUS_war_strategy }
 		relative_position_id = RUS_thunder_on_the_east
-		x = 4
+		x = 0
 		y = 7
 		#mutually_exclusive = { focus = focus =  }
 		cost = 23
@@ -382,92 +384,7 @@
 		icon = GFX_goal_placeholder_dimon
 		prerequisite = { focus = RUS_recognition_of_donbass_republics }
 		relative_position_id = RUS_thunder_on_the_east
-		x = 4
-		y = 8
-		#mutually_exclusive = { focus = focus =  }
-		cost = 3
-		available = {
-		}
-		completion_reward = {
-			declare_war_on = { target = ukr type = annex_everything }
-		}
-	}
-	focus = {
-		id = RUS_demands_accepted
-		icon = GFX_goal_placeholder_dimon
-		prerequisite = { focus = RUS_demands_to_nato }
-		mutually_exclusive = { focus = RUS_demands_cancelled }
-		relative_position_id = RUS_thunder_on_the_east
-		x = -4
-		y = 5
-		cost = 9
-		available = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = RUS_pressure_on_georgia
-		icon = GFX_goal_placeholder_dimon
-		prerequisite = { focus = RUS_demands_accepted }
-		relative_position_id = RUS_thunder_on_the_east
-		x = -4
-		y = 6
-		cost = 9
-		available = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = RUS_new_economic_treaty_with_america
-		icon = GFX_goal_placeholder_dimon
-		prerequisite = { focus = RUS_demands_accepted }
-		relative_position_id = RUS_thunder_on_the_east
-		x = -6
-		y = 6
-		cost = 9
-		available = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = RUS_prepare_sledgehammer
-		icon = GFX_goal_placeholder_dimon
-		prerequisite = { focus = RUS_political_triumh }
-		prerequisite = { focus = RUS_new_economic_treaty_with_america }
-		prerequisite = { focus = RUS_pressure_on_georgia }
-		relative_position_id = RUS_thunder_on_the_east
-		x = -4
-		y = 7
-		#mutually_exclusive = { focus = focus =  }
-		cost = 23
-		# allow_branch = { has_completed_focus = RUS_demands_to_nato }
-		available = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = RUS_political_triumh
-		icon = GFX_goal_placeholder_dimon
-		prerequisite = { focus = RUS_demands_accepted }
-		relative_position_id = RUS_thunder_on_the_east
-		x = -2
-		y = 6
-		cost = 9
-		available = {
-		}
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = RUS_defend_people_of_donbass
-		icon = GFX_goal_placeholder_dimon
-		prerequisite = { focus = RUS_prepare_sledgehammer }		
-		relative_position_id = RUS_thunder_on_the_east
-		x = -4
+		x = 0
 		y = 8
 		#mutually_exclusive = { focus = focus =  }
 		cost = 3
@@ -483,7 +400,7 @@
 		prerequisite = { focus = RUS_military_exercises_zapad_21 }
 		prerequisite = { focus = RUS_push_the_foreign_agents_law }
 		prerequisite = { focus = RUS_admit_economic_growth }
-		prerequisite = { focus = RUS_continue_dialogue_with_nato }
+		prerequisite = { focus = RUS_keep_frontline_frozen_in_donbass }
 		relative_position_id = RUS_thunder_on_the_east
 		x = 0
 		y = 4
@@ -492,7 +409,8 @@
 		available = {
 		}
 		completion_reward = {
-			mark_focus_tree_layout_dirty = yes
+			#mark_focus_tree_layout_dirty = yes
+			USA = { country_event = { id = nato.1 } }
 		}
 	}	
 }

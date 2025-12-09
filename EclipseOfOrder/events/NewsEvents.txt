@@ -1,1 +1,89 @@
 add_namespace = news
+
+news_event = {
+	id = news.1 # odessa march
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_odessa_march
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = SOV
+				TAG = BLR
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { 
+			TAG = UPA
+			TAG = UKR
+			TAG = DVO
+		}
+	}
+}
+news_event = {
+	id = news.2 # fallen stability in ukraine
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+	}
+}
+news_event = {
+	id = news.3 # ukranian civil war
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+	}
+}
+news_event = {
+	id = news.4 # demands cancelled
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			NOT = {
+				OR = {
+					original_tag = SOV
+					original_tag = BLR
+				}
+			}
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = {
+			OR = {
+				original_tag = SOV
+				original_tag = BLR
+			}
+		}
+	}
+}

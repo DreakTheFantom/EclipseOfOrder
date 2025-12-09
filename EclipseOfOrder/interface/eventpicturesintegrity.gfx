@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_report_event_navalny_arrest"
+		texturefile = "gfx/event_pictures/report_event_rus_navalny_arrest.dds"
+	}	
+}

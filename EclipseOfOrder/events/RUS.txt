@@ -4,6 +4,7 @@ country_event = {
     id = rus.1 # navalny arrest
     title = rus.1.t
     desc = rus.1.d
+	picture = GFX_report_event_navalny_arrest
     
     is_triggered_only = yes # To prevent the 20-day range from causing a delay
     
@@ -24,6 +25,43 @@ country_event = {
 		add_timed_idea = {
 			idea = RUS_zapad_21
 			days = 60
+		}
+    }
+}
+country_event = {
+    id = rus.3 # odessa march
+    title = rus.3.t
+    desc = rus.3.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+        UKR = {
+			766 = { transfer_state_to = SOV }
+			192 = { transfer_state_to = SOV }
+			197 = { transfer_state_to = SOV }
+			197 = { add_core_of = SOV }
+			192 = { add_core_of = SOV }
+			766 = { add_core_of = SOV }
+			hidden_effect = {
+				news_event = { id = news.1 hours = 6 }
+			}
+		}
+    }
+}
+country_event = {
+    id = rus.4 # zapad-21
+    title = rus.4.t
+    desc = rus.4.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+        name = rus.4.a
+		add_war_support = 0.1
+		mark_focus_tree_layout_dirty = yes
+		SOV = {
+			complete_national_focus = { focus = RUS_demands_cancelled } 
 		}
     }
 }

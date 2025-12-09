@@ -1,0 +1,98 @@
+add_namespace = ukr
+
+country_event = {
+    id = ukr.1 
+    title = ukr.1.t
+    desc = ukr.1.d
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = ukr.1.a
+		add_stability = -0.5
+		hidden_effect = {
+			news_event = { id = news.2 hours = 6 }
+		}
+    }
+}
+country_event = {
+    id = ukr.2 
+    title = ukr.2.t
+    desc = ukr.2.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+        name = ukr.2.a
+		every_owned_state = {
+			add_core_of = UPA
+		}
+		73 = { transfer_state_to = UPA }
+		89 = { transfer_state_to = UPA }
+		80 = { transfer_state_to = UPA }
+		91 = { transfer_state_to = UPA }
+		93 = { transfer_state_to = UPA }
+    }
+}
+country_event = {
+    id = ukr.3 
+    title = ukr.3.t
+    desc = ukr.3.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+        name = ukr.3.a
+		every_owned_state = {
+			add_core_of = DVO
+		}
+		UPA = {
+			every_owned_state = {
+				add_core_of = DVO
+			}
+			load_oob = "UPA_2021"
+		}
+		226	 = { transfer_state_to = DVO }
+		221 = { transfer_state_to = DVO }
+		259 = { transfer_state_to = DVO }
+		225 = { transfer_state_to = DVO }
+		DVO = {
+			load_oob = "DVO_2021"
+		}
+    }
+}
+country_event = {
+    id = ukr.4 
+    title = ukr.4.t
+    desc = ukr.4.d
+    
+    is_triggered_only = yes # To prevent the 20-day range from causing a delay
+    
+    option = {
+		name = ukr.4.a
+		UKR = {
+            declare_war_on = {
+                target = UPA
+                type = annex_everything
+            }
+        }
+		UKR = {
+            declare_war_on = {
+                target = DVO
+                type = annex_everything
+            }
+        }
+		UPA = {
+			declare_war_on = {
+				target = DVO
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
+			UKR = {
+				country_event = { id = rus.3 days = 28 }
+			}
+			news_event = { id = news.3 hours = 6 }
+		}
+    }
+}

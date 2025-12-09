@@ -12,7 +12,7 @@ RUS_ukraine_category = {
 		cancel_trigger = {
 			has_war = no
 		}
-		#icon = mission_icon     # For GFX_decision_mission_icon
+		fire_only_once = yes
 		is_good = no
 		days_mission_timeout = 150
 		complete_effect = {
@@ -72,43 +72,92 @@ RUS_ukraine_category = {
         }
     }
     RUS_ultimatum = {
-		visible = { has_completed_focus = RUS_defend_people_of_donbass }
+		visible = { has_completed_focus = RUS_launch_smo }
+		ai_will_do = {
+			base = 100
+		}
         available = {
             tag = SOV
 			OR = {
-				196 = {
-					controller = {
-						original_tag = SOV
+				AND = {
+					OR = {
+						196 = {
+							controller = {
+								original_tag = SOV
+							}
+						}
+						196 = {
+							controller = {
+								original_tag = RSD
+							}
+						}
+					}
+					OR = {
+						200 = {
+							controller = {
+								original_tag = SOV
+							}
+						}
+						200 = {
+							controller = {
+								original_tag = RSD
+							}
+						}
+					}
+					OR = {
+						228 = {
+							controller = {
+								original_tag = SOV
+							}
+						}
+						228 = {
+							controller = {
+								original_tag = RSD
+							}
+						}
+					}
+					OR = {
+						221 = {
+							controller = {
+								OR = {
+									original_tag = SOV
+									original_tag = RSD
+								}
+							}
+						}
+						226 = {
+							controller = {
+								OR = {
+									original_tag = SOV
+									original_tag = RSD
+								}
+							}
+						}
+						197 = {
+							controller = {
+								OR = {
+									original_tag = SOV
+									original_tag = RSD
+								}
+							}
+						}
+						225 = {
+							controller = {
+								OR = {
+									original_tag = SOV
+									original_tag = RSD
+								}
+							}
+						}					
 					}
 				}
-				196 = {
+				202 = {
 					controller = {
-						original_tag = RSD
-					}
-				}
-			}
-			OR = {
-				200 = {
-					controller = {
-						original_tag = SOV
-					}
-				}
-				200 = {
-					controller = {
-						original_tag = RSD
-					}
-				}
-			}
-			OR = {
-				228 = {
-					controller = {
-						original_tag = SOV
-					}
-				}
-				228 = {
-					controller = {
-						original_tag = RSD
-					}
+						OR = {
+							original_tag = SOV
+							original_tag = RSD
+						}
+					}	
 				}
 			}
         }
@@ -130,6 +179,33 @@ RUS_ukraine_category = {
 				228 = {
 					transfer_state_to = SOV
 				}
+				hidden_effect = {
+					country_event = { id = ukr.1 days = 7 }
+					country_event = { id = ukr.2 days = 10 }
+					country_event = { id = ukr.3 days = 14 }
+					country_event = { id = ukr.4 days = 21 }
+				}
+			}
+			SOV = {
+				annex_country = {
+					target = RSD
+					transfer_troops = yes
+				}
+				228 = {
+					add_core_of = SOV
+				}
+				200 = {
+					add_core_of = SOV
+				}
+				196 = {
+					add_core_of = SOV
+				}
+				227 = {
+					add_core_of = SOV
+				}
+				1017 = {
+					add_core_of = SOV
+				}
 			}
         }
         cancel_trigger = {
@@ -140,4 +216,39 @@ RUS_ukraine_category = {
         cancel_effect = {
         }
     }	
+}
+
+RUS_africa_category = {
+	sahel_send_equip = {
+		allowed = {
+            tag = SOV
+        }
+		cost = 50
+        #icon = QAT_example
+        #fire_only_once = yes
+        days_remove = 50
+        #war_with_on_remove = BHR
+        #modifier = {
+        #    training_time_factor = -0.3
+        #}
+        remove_effect = {
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 100
+				target = MLI
+			}
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 100
+				target = NGR
+			}
+        }
+        cancel_trigger = {
+            UKR = {
+                has_war = no
+            }
+        }
+        cancel_effect = {
+        }
+	}
 }
